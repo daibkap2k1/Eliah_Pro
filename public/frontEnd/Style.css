@@ -8,6 +8,21 @@
     src: url('Font/Spartan/Spartan-VariableFont_wght.ttf');
 }
 
+.wp-container-full {
+    max-width: 1620px;
+    padding: 0;
+}
+
+.set-img {
+    width: 100%;
+    height: auto;
+}
+
+.set-img img {
+    max-width: 100%;
+    height: auto;
+}
+
 .draw-border {
     color: #080808;
     transition: color 0.25s 0.0833333333s;
@@ -1025,21 +1040,24 @@ footer {
     text-transform: uppercase;
     font-size: 13px;
 }
+
+
 /* contact */
 
-.t_git input{
+.t_git input {
     width: 100%;
     margin-bottom: 20px;
     height: 45px;
     border: solid lightgray;
 }
-.t_git textarea{
+
+.t_git textarea {
     width: 100%;
     margin-bottom: 20px;
     border: solid lightgray;
-
 }
-.t_git button{
+
+.t_git button {
     width: 100%;
     height: 45px;
     background-color: #000000;
@@ -1047,36 +1065,45 @@ footer {
     font-weight: 900;
     font-size: 13px;
 }
-.cti{
+
+.cti {
     margin-top: 30px;
 }
-.cti .iconct{
+
+.cti .iconct {
     float: left;
 }
+
 .iconct {
     font-size: 25px;
     color: #E9615B;
 }
+
 .textct {
     padding-left: 55px;
 }
-.t_ctt h2{
+
+.t_ctt h2 {
     font-weight: 900;
     font-size: 30px;
 }
-.t_git h2{
+
+.t_git h2 {
     font-weight: 900;
     font-size: 30px;
 }
-.textct h5{
+
+.textct h5 {
     font-weight: 900;
     padding-top: 4px;
     font-size: 15px;
 }
-.textct p{
+
+.textct p {
     font-size: 15px;
 }
-.t_ctmap{
+
+.t_ctmap {
     padding: 0px;
     margin-top: 60px;
 }
@@ -1126,11 +1153,225 @@ footer {
     content: " / ";
 }
 
+.box-color {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
 
 /* end breadcrumb */
 
 
 /* start container left */
 
+.box-sl:not(:last-child) {
+    margin-bottom: 35px;
+}
+
+.title-boxsl h3 {
+    font-size: 24;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.content-boxsl li a {
+    color: #686868;
+    font-size: 14px;
+}
+
+.content-boxsl li a::after {
+    position: absolute;
+    height: 8px;
+    width: 100%;
+    content: "";
+    background: #fbd0cf;
+    opacity: 0;
+    width: 10%;
+    transition: all 0.5s;
+    left: -5px;
+}
+
+.content-boxsl li:hover a::after {
+    opacity: 0.8;
+    bottom: 13px;
+    width: 100%;
+    left: 0;
+}
+
+.content-boxsl li {
+    width: max-content;
+    padding: 10px 0;
+    position: relative;
+}
+
+.box-sl>p {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+.content-boxsl li div>label {
+    font-size: 14px;
+    color: #686868;
+    line-height: 25px;
+    cursor: pointer;
+}
+
 
 /* end container left */
+
+
+/* content-shop  */
+
+.header-list-shop {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.icon-change-layout>div {
+    margin-right: 10px;
+    cursor: pointer;
+    color: #888888;
+}
+
+.icl-th {
+    font-size: 25px;
+}
+
+.icl-bar {
+    font-size: 28px;
+}
+
+.icl-activer {
+    color: #111111 !important;
+}
+
+.fiters-hls {
+    background: #f5f5f5;
+    padding: 0 20px;
+    line-height: 42px;
+}
+
+#select-hls {
+    border: none !important;
+    background-color: inherit;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#select-hls option {
+    border: none !important;
+}
+
+.content-shop-list-product>div {
+    margin-bottom: 25px;
+}
+
+.set-img-shop img {
+    min-width: 100% !important;
+    height: auto !important;
+}
+
+
+/* end content shop  */
+
+
+/* menu orther  */
+
+.menu-black {
+    margin: 0 !important;
+}
+
+#menu-other {
+    background: #111111;
+    padding: 0px !important;
+}
+
+.logo-nav-black {
+    display: inline-block;
+    line-height: 57px;
+}
+
+.menu-black li a {
+    line-height: 57px;
+    padding: 0 20px !important;
+}
+
+.menu-black li a::after {
+    bottom: 21px !important;
+}
+
+.cart-icon-black span {
+    top: 5px !important;
+    left: 25px !important;
+    color: #fff !important;
+    font-size: 14px !important;
+}
+
+.list-icon-nav-black li:last-child span {
+    line-height: 57px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.list-icon-nav-black li {
+    line-height: 57px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.menu-black li a {
+    color: #fff !important;
+}
+
+.menu-roots {
+    display: none;
+}
+
+
+/* end menu orther  */
+
+
+/* Banner-foote-sp  */
+
+.banner-footer-sp {
+    height: 320px;
+    width: 100%;
+}
+
+
+/* End banner-footer-sp  */
+
+
+/* pagination  */
+
+.pag {
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    border: solid 1px #adadad;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pag-active {
+    background: black;
+    color: #fff;
+}
+
+.paginations {
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+/* end pagination  */

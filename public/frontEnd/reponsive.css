@@ -138,8 +138,18 @@
     .controller-owlt {
         justify-content: center;
     }
-    ..wp-ah {
+    .wp-ah {
         margin-top: 30px !important;
+    }
+    .collect-color {
+        float: none !important;
+        display: block;
+    }
+    .menu-roots {
+        display: block;
+    }
+    #menu-other {
+        display: none;
     }
 }
 

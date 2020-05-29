@@ -179,13 +179,15 @@
                         <div class="title-ct">
                             <a href=""> The expect mascaraa</a>
                         </div>
-                        <div class="price-ct">
+                        <div class="price-ct clearfix">
                             $21.00 <span>$49.00</span>
+                            <div class="collect-color d-inline-block float-right">
+                                <span class="box-color" style="background-color: black"></span>
+                                <span class="box-color" style="background-color: rgb(31, 218, 87)"></span>
+                                <span class="box-color" style="background-color: red"></span>
+                            </div>
                         </div>
                     </div>
-                    {{-- <span class="label-thum bg-blue">
-                        New
-                    </span> --}}
                 </div>
             </div>
         </div>
@@ -408,25 +410,6 @@
         </div>
     </div>
 </div>
-{{-- -------search  --}}
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <form method="get" class="text-center">
-                    <div class="form-group">
-                        <label for="seach12" style="font-weight:bold; font-size:18px">Search Product</label>
-                        <input type="text" class="form-control" id="seach12" placeholder="Nhập tên sản phẩm ?">
-                    </div>
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary">Search</button>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-{{-- end search  --}}
 
 {{-- Video modal  --}}
 <div class="modal fade" id="exampleModalvideo" tabindex="-1" role="dialog" aria-labelledby="exampleModalvideo"

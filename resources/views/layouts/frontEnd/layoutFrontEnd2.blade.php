@@ -124,14 +124,14 @@
         </nav>
     </div>
     <nav id="menu-other">
-        <div class="container wp-container-full">
+        <div class="container wp-container">
             <div class="row">
                 <div class="col-lg-3 col-md-3 text-left">
                     <a href="" class="logo-nav-black">
                         <img src="{{asset('public/frontEnd/images/logoweb2.png')}}" alt="">
                     </a>
                 </div>
-                <div class="col-lg-6 col-md-4 text-center">
+                <div class="col-lg-5 col-md-5 text-center">
                     <ul class="menu d-inline-flex menu-black">
                         <li><a href="">Home</a></li>
                         <li><a href="">Service</a></li>
@@ -141,7 +141,7 @@
                         <li><a href="">Contact</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-3 col-md-5 text-right">
+                <div class="col-lg-4 col-md-4 text-right">
                     <ul class="list-icon-nav d-inline-flex list-icon-nav-black">
                         <li data-toggle="modal" data-target="#exampleModal">
                             <img src="{{asset('public/frontEnd/images/search-black.png')}}" alt="">
@@ -167,9 +167,29 @@
 
     @yield('content')
 
-<div class="banner-footer-sp cover" style="background-image: url('{{asset('public/frontEnd/images/footer-banner.png')}}')">
+{{-- <div class="banner-footer-sp cover" style="background-image: url('{{asset('public/frontEnd/images/footer-banner.png')}}')">
 
-</div>
+</div> --}}
+<section id="banner-footer">
+    <div class="banner-footer-sp cover" style="background-image: url('{{asset('public/frontEnd/images/footer-banner01.png')}}')">
+
+    </div>
+    <div class="banner-footer-sp cover" style="background-image: url('{{asset('public/frontEnd/images/footer-banner01.png')}}')">
+
+    </div>
+    <div class="banner-footer-sp cover" style="background-image: url('{{asset('public/frontEnd/images/footer-banner01.png')}}')">
+
+    </div>
+    <div class="banner-footer-sp cover" style="background-image: url('{{asset('public/frontEnd/images/footer-banner01.png')}}')">
+
+    </div>
+    <div class="banner-footer-sp cover" style="background-image: url('{{asset('public/frontEnd/images/footer-banner01.png')}}')">
+
+    </div>
+    <div class="banner-footer-sp cover" style="background-image: url('{{asset('public/frontEnd/images/footer-banner01.png')}}')">
+
+    </div>
+</section>
     <footer>
         <div class="container wp-container">
             <div class="footer-top">

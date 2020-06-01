@@ -1065,12 +1065,15 @@ footer {
     margin-bottom: 20px;
     height: 45px;
     border: solid lightgray;
+    padding: 5px 0px 0px 5px;
 }
 
 .t_git textarea {
     width: 100%;
     margin-bottom: 20px;
     border: solid lightgray;
+    padding: 5px 0px 0px 5px;
+
 }
 
 .t_git button {
@@ -1102,17 +1105,28 @@ footer {
 .t_ctt h2 {
     font-weight: 900;
     font-size: 30px;
+    font-family: Spartan-bold;
+}
+
+#contacttop{
+    padding-top: 70px;
+}
+
+#contactbot{
+    padding-bottom: 70px;
 }
 
 .t_git h2 {
     font-weight: 900;
     font-size: 30px;
+    font-family: Spartan-bold;
 }
 
 .textct h5 {
     font-weight: 900;
     padding-top: 4px;
     font-size: 15px;
+    font-family: Spartan-bold;
 }
 
 .textct p {
@@ -1408,3 +1422,132 @@ footer {
 
 
 /* end pagination  */
+
+/* Checkout */
+#t_checkout{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.checkoutleft h4{
+    font-family: Spartan-bold;
+    font-weight: 900;
+    width: 50%;
+    padding-bottom: 20px;
+}
+.checkoutleft .checkoutcnt {
+    display: flex;
+    justify-content: space-between;
+}
+.checkoutleft span{
+    color: red;
+}
+
+.checkoutleft label{
+    width: 100%;
+    color: #111111;
+}
+
+.checkoutleft input{
+    width: 100%;
+}
+
+.checkoutright{
+    background-color: #F7F6F4;
+    height: max-content;
+    padding: 30px;
+}
+.checkoutright h4{
+    font-family: Spartan-bold;
+    font-weight: 900;
+}
+.checkoutright h6{
+    font-family: Spartan-bold;
+    font-weight: 900;
+    padding: 10px 0px 0px 0px;
+}
+.checkoutright .t_crcode button{
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    background-color: #111111;
+    color: #fff;
+    height: 45px;
+    font-family: Spartan-bold;
+    font-weight: 900;
+}
+.checkoutright .t_crcode input{
+    display: block;
+    width: 100%;
+    height: 45px;
+    border: 1px solid lightgray;
+}
+.t_crp1 span{
+    font-family: Spartan-bold;
+    font-weight: 900;
+}
+.t_crp1 .t_pdleft{
+    display: flex;
+}
+.t_crp1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.t_crp1 p{
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+}
+.t_crsub h6{
+    font-family: Spartan-bold;
+    font-weight: 900;
+}
+.t_crsub{
+    display: flex;
+    justify-content: space-between;
+}
+.t_crsub span{
+    color: red;
+    font-family: Spartan-bold;
+    font-weight: 900;
+}
+.t_crtl{
+    display: flex;
+    justify-content: space-between;
+}
+.t_crtl span{
+    color: red;
+    font-family: Spartan-bold;
+    font-weight: 900;
+}
+.checkoutright button{
+    font-family: Spartan-bold;
+    font-weight: 900;
+    width:100%;
+    height:45px;
+    background-color:#E06158;
+    color:#fff;
+    border: solid #F7F6F4;
+}
+
+.checkoutcnt span{
+    padding-left: 5px;
+}
+.t_checkout_info input[type=text]{
+    height: 45px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+}
+.t_checkout_info{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.t_allcntcl input[type=text]{
+    height: 45px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+}
+.t_allcntcl  label{
+    color: #111111 !important;
+    font-weight: 900;
+}

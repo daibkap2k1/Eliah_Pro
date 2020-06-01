@@ -164,6 +164,10 @@
             </div>
         </div>
     </nav>
+    <section class="banner-page2 text-center">
+    <h1>Shop</h1>
+    <p>Home / <span>Shop</span> </p>
+</section>
 
     @yield('content')
 

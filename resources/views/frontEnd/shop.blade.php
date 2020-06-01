@@ -7,7 +7,7 @@
     <p>Home / <span>Shop</span> </p>
 </section>
 <section class="wp-box">
-    <div class="wp-container-full container">
+    <div class="wp-container container">
         <div class="row">
             <div class="col-lg-3 sidebarLeft">
                 <div class="box-sl">
@@ -134,7 +134,8 @@
                     </form>
                 </div>
                 <div class="row content-shop-list-product">
-                    <div class="col-md-3">
+                    {{-- box product  --}}
+                    <div class="col-md-4 box-cslp">
                         <div class="thumbnail position-relative">
                             <div class="img-thum position-relative set-img-shop">
                                 <img src="{{asset('public/frontEnd/images/product/demo-shop.png')}}" alt="">
@@ -170,12 +171,18 @@
                                     $21.00 <span>$49.00</span>
                                 </div>
                             </div>
-                            <span class="label-thum bg-blue">
-                                New
-                            </span>
+
+                            <div class="lable-thumbail">
+                                <span class="label-thum bg-red">
+                                    -35%
+                                </span>
+                                <span class="label-thum bg-blue">
+                                    New
+                                </span>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 box-cslp">
                         <div class="thumbnail position-relative">
                             <div class="img-thum position-relative set-img-shop">
                                 <img src="{{asset('public/frontEnd/images/product/demo-shop.png')}}" alt="">
@@ -211,12 +218,14 @@
                                     $21.00 <span>$49.00</span>
                                 </div>
                             </div>
-                            <span class="label-thum bg-blue">
-                                New
-                            </span>
+                            <div class="lable-thumbail">
+                                <span class="label-thum bg-blue">
+                                    New
+                                </span>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 box-cslp">
                         <div class="thumbnail position-relative">
                             <div class="img-thum position-relative set-img-shop">
                                 <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
@@ -252,12 +261,14 @@
                                     $21.00 <span>$49.00</span>
                                 </div>
                             </div>
-                            <span class="label-thum bg-blue">
-                                New
-                            </span>
+                            <div class="lable-thumbail">
+                                <span class="label-thum bg-red">
+                                    -35%
+                                </span>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 box-cslp">
                         <div class="thumbnail position-relative">
                             <div class="img-thum position-relative set-img-shop">
                                 <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
@@ -298,9 +309,17 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="lable-thumbail">
+                                <span class="label-thum bg-red">
+                                    -35%
+                                </span>
+                                <span class="label-thum bg-blue">
+                                    New
+                                </span>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 box-cslp">
                         <div class="thumbnail position-relative">
                             <div class="img-thum position-relative set-img-shop">
                                 <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
@@ -336,12 +355,17 @@
                                     $21.00 <span>$49.00</span>
                                 </div>
                             </div>
-                            <span class="label-thum bg-blue">
-                                New
-                            </span>
+                            <div class="lable-thumbail">
+                                {{-- <span class="label-thum bg-red">
+                                    -35%
+                                </span> --}}
+                                <span class="label-thum bg-blue">
+                                    New
+                                </span>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 box-cslp">
                         <div class="thumbnail position-relative">
                             <div class="img-thum position-relative set-img-shop">
                                 <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
@@ -377,12 +401,17 @@
                                     $21.00 <span>$49.00</span>
                                 </div>
                             </div>
-                            <span class="label-thum bg-blue">
-                                New
-                            </span>
+                            <div class="lable-thumbail">
+                                {{-- <span class="label-thum bg-red">
+                                    -35%
+                                </span> --}}
+                                <span class="label-thum bg-blue">
+                                    New
+                                </span>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 box-cslp">
                         <div class="thumbnail position-relative">
                             <div class="img-thum position-relative set-img-shop">
                                 <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
@@ -418,12 +447,17 @@
                                     $21.00 <span>$49.00</span>
                                 </div>
                             </div>
-                            <span class="label-thum bg-blue">
-                                New
-                            </span>
+                            {{-- <div class="lable-thumbail">
+                                <span class="label-thum bg-red">
+                                    -35%
+                                </span>
+                                <span class="label-thum bg-blue">
+                                    New
+                                </span>
+                            </div> --}}
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 box-cslp">
                         <div class="thumbnail position-relative">
                             <div class="img-thum position-relative set-img-shop">
                                 <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
@@ -459,12 +493,17 @@
                                     $21.00 <span>$49.00</span>
                                 </div>
                             </div>
-                            <span class="label-thum bg-blue">
-                                New
-                            </span>
+                            {{-- <div class="lable-thumbail">
+                                <span class="label-thum bg-red">
+                                    -35%
+                                </span>
+                                <span class="label-thum bg-blue">
+                                    New
+                                </span>
+                            </div> --}}
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 box-cslp">
                         <div class="thumbnail position-relative">
                             <div class="img-thum position-relative set-img-shop">
                                 <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
@@ -500,12 +539,17 @@
                                     $21.00 <span>$49.00</span>
                                 </div>
                             </div>
-                            <span class="label-thum bg-blue">
-                                New
-                            </span>
+                            <div class="lable-thumbail">
+                                <span class="label-thum bg-red">
+                                    -35%
+                                </span>
+                                <span class="label-thum bg-blue">
+                                    New
+                                </span>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 box-cslp">
                         <div class="thumbnail position-relative">
                             <div class="img-thum position-relative set-img-shop">
                                 <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
@@ -541,12 +585,17 @@
                                     $21.00 <span>$49.00</span>
                                 </div>
                             </div>
-                            <span class="label-thum bg-blue">
-                                New
-                            </span>
+                            <div class="lable-thumbail">
+                                <span class="label-thum bg-red">
+                                    -35%
+                                </span>
+                                <span class="label-thum bg-blue">
+                                    New
+                                </span>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 box-cslp">
                         <div class="thumbnail position-relative">
                             <div class="img-thum position-relative set-img-shop">
                                 <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
@@ -582,12 +631,17 @@
                                     $21.00 <span>$49.00</span>
                                 </div>
                             </div>
-                            <span class="label-thum bg-red">
-                                -30%
-                            </span>
+                            {{-- <div class="lable-thumbail">
+                                <span class="label-thum bg-red">
+                                    -35%
+                                </span>
+                                <span class="label-thum bg-blue">
+                                    New
+                                </span>
+                            </div> --}}
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 box-cslp">
                         <div class="thumbnail position-relative">
                             <div class="img-thum position-relative set-img-shop">
                                 <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
@@ -623,11 +677,27 @@
                                     $21.00 <span>$49.00</span>
                                 </div>
                             </div>
-                            <span class="label-thum bg-blue">
-                                New
-                            </span>
+                            <div class="lable-thumbail">
+                                <span class="label-thum bg-red">
+                                    -35%
+                                </span>
+                                <span class="label-thum bg-blue">
+                                    New
+                                </span>
+                            </div>
                         </div>
                     </div>
+                    {{-- end box product --}}
+
+                    {{-- List product  --}}
+                    <div class="col-md-12 list-cslp">
+                        <div class="row">
+                            <div class="col-md-3">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    {{-- End list product  --}}
                 </div>
                 <div class="paginations">
                     <div class="content-pagination">

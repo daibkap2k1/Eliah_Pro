@@ -93,3 +93,15 @@ $('.box-cart-home').click(function(e) {
 $(document).ready(function() {
     $('[data-toggle="tooltip"]').tooltip();
 });
+
+// Click show list product
+$('.icl-bar').click(function(e) {
+    $('.icl-th').removeClass('icl-activer');
+    $('.icl-bar').addClass('icl-activer');
+
+});
+$('.icl-th').click(function(e) {
+    $('.icl-th').addClass('icl-activer');
+    $('.icl-bar').removeClass('icl-activer');
+});
+// End click show list product

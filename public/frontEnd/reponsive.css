@@ -151,6 +151,9 @@
     #menu-other {
         display: none;
     }
+    /* checkout */
+    .checkoutleft{
+        margin-bottom: 50px;
     .banner-page2 {
         padding: 30px !important;
     }
@@ -202,8 +205,15 @@
     .tct-left {
         padding: 0 19px;
     }
-}
+    
 
+@media screen and (max-width:800px){
+    .checkoutleft h4{
+        margin: auto;
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+}
 @media screen and (max-width:335px) {
     .content-home-about h1 {
         font-size: 30px;
@@ -212,6 +222,21 @@
         font-size: 20px;
         padding: 15px 0;
     }
+    .checkoutleft h4{
+        margin: auto;
+        padding-bottom: 30px;
+        font-size: 16px;
+
+    }
+    .checkoutleft h5{
+        margin: auto;
+        padding-bottom: 30px;
+        font-size: 16px;
+    }
+    .checkoutleft input[type=checkbox]{
+        width:  20px;
+    }
+}
 }
 
 @media screen and (min-width:1024px) and (max-width:1300px) {
@@ -220,6 +245,11 @@
         width: auto !important;
         padding-left: 5px !important;
     }
+    .t_pdprice{
+        font-size: 12px !important;
+        padding-top: 5px;
+    }
+    
     .menu-black li a {
         padding: 0 13px !important;
     }

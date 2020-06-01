@@ -1,7 +1,7 @@
-@extends('layouts/frontEnd/layoutFrontEnd')
+@extends('layouts/frontEnd/layoutFrontEnd2')
 @section('titleWeb',"Eliah")
 @section('content')
-    <div class="wp-container container">
+    <div class="wp-container container" id="contacttop">
         <div class="row">
             <div class="t_ctt col-md-5" >
                 <h2>Contact info</h2>
@@ -55,7 +55,7 @@
             </div>
         </div>
     </div>
-    <div class="wp-container container">
+    <div class="wp-container container" id="contactbot">
         <div class="t_ctmap col-md-12">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19599.105408321975!2d-74.20331987243637!3d40.794462329133104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2556c1f09d441%3A0xc34400ebfb0706a1!2sBloomfield%2C%20New%20Jersey%2C%20Hoa%20K%E1%BB%B3!5e0!3m2!1svi!2s!4v1590575099800!5m2!1svi!2s" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>

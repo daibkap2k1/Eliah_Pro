@@ -27,3 +27,6 @@ Route::get('/product-detail', function () {
     return view('frontEnd/product-detail');
 });
 
+Route::get('/Checkout', function () {
+    return view('frontEnd/Checkout');
+});

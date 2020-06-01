@@ -154,6 +154,44 @@
     /* checkout */
     .checkoutleft{
         margin-bottom: 50px;
+    .banner-page2 {
+        padding: 30px !important;
+    }
+    .sidebarLeft {
+        display: none !important;
+    }
+    .banner-footer-sp {
+        width: calc(100%/2);
+    }
+    #banner-footer {
+        height: max-content;
+    }
+    .banner-footer-sp:nth-child(2n+1) {
+        display: none;
+    }
+    .banner-footer-sp {
+        min-height: 200px;
+    }
+    .fiters-hls {
+        display: none;
+    }
+    .icon-change-layout {
+        display: none !important;
+    }
+    .header-list-shop {
+        justify-content: center;
+    }
+    .content-it {
+        display: none !important;
+    }
+    .content-thum {
+        padding: 10px 0;
+    }
+    .btn-filter {
+        display: block !important;
+    }
+    .content-fm {
+        display: block !important;
     }
 }
 
@@ -212,6 +250,15 @@
         padding-top: 5px;
     }
     
+    .menu-black li a {
+        padding: 0 13px !important;
+    }
+    .pd-55px {
+        padding: 15px !important;
+    }
+    .price-product-tmp {
+        padding-bottom: 10px !important;
+    }
 }
 
 @media screen and (max-width: 1439px) {

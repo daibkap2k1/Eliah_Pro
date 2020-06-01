@@ -76,8 +76,8 @@
                         <ul class="content-it align-items-center">
                             <li data-toggle="tooltip" data-placement="top" title="Add To Cart"><span><i
                                         class="fas fa-shopping-bag"></i></span></li>
-                            <li data-toggle="tooltip" data-placement="top" title="View Product"><span><i
-                                        class="fas fa-eye"></i></span></li>
+                            <li data-toggle="tooltip modal" data-placement="top" title="View Product"><span><i
+                                        class="fas fa-eye" data-toggle="modal" data-target="#modal-product"></i></span></li>
                             <li data-toggle="tooltip" data-placement="top" title="Add To Heart"><span><i
                                         class="fas fa-heart"></i></span></li>
 
@@ -120,8 +120,8 @@
                         <ul class="content-it align-items-center">
                             <li data-toggle="tooltip" data-placement="top" title="Add To Cart"><span><i
                                         class="fas fa-shopping-bag"></i></span></li>
-                            <li data-toggle="tooltip" data-placement="top" title="View Product"><span><i
-                                        class="fas fa-eye"></i></span></li>
+                            <li data-toggle="tooltip modal" data-placement="top" title="View Product"><span><i
+                                        class="fas fa-eye" data-toggle="modal" data-target="#modal-product"></i></span></li>
                             <li data-toggle="tooltip" data-placement="top" title="Add To Heart"><span><i
                                         class="fas fa-heart"></i></span></li>
 
@@ -159,8 +159,8 @@
                         <ul class="content-it align-items-center">
                             <li data-toggle="tooltip" data-placement="top" title="Add To Cart"><span><i
                                         class="fas fa-shopping-bag"></i></span></li>
-                            <li data-toggle="tooltip" data-placement="top" title="View Product"><span><i
-                                        class="fas fa-eye"></i></span></li>
+                            <li data-toggle="tooltip modal" data-placement="top" title="View Product"><span><i
+                                        class="fas fa-eye" data-toggle="modal" data-target="#modal-product"></i></span></li>
                             <li data-toggle="tooltip" data-placement="top" title="Add To Heart"><span><i
                                         class="fas fa-heart"></i></span></li>
 

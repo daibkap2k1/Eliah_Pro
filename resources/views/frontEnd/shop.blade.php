@@ -749,7 +749,7 @@
                                         Sit voluptatibus cupiditate eos.</p>
                                     <div class="tool-list-product">
                                         <ul class="content-list">
-                                            <li data-toggle="tooltip" data-placement="top" title="Add To Cart">
+                                            <li data-toggle="tooltip" data-placement="top" title="Add To Cart" class="btn-cart-adds">
                                                 <div class="btn-carts">
                                                     <span><i class="fas fa-shopping-bag"></i></span>
                                                     <p> Add To Cart</p>
@@ -815,7 +815,7 @@
                                         Sit voluptatibus cupiditate eos.</p>
                                     <div class="tool-list-product">
                                         <ul class="content-list">
-                                            <li data-toggle="tooltip" data-placement="top" title="Add To Cart">
+                                            <li data-toggle="tooltip" data-placement="top" title="Add To Cart" class="btn-cart-adds">
                                                 <div class="btn-carts">
                                                     <span><i class="fas fa-shopping-bag"></i></span>
                                                     <p> Add To Cart</p>
@@ -881,7 +881,7 @@
                                         Sit voluptatibus cupiditate eos.</p>
                                     <div class="tool-list-product">
                                         <ul class="content-list">
-                                            <li data-toggle="tooltip" data-placement="top" title="Add To Cart">
+                                            <li data-toggle="tooltip" data-placement="top" title="Add To Cart" class="btn-cart-adds">
                                                 <div class="btn-carts">
                                                     <span><i class="fas fa-shopping-bag"></i></span>
                                                     <p> Add To Cart</p>
@@ -947,7 +947,7 @@
                                         Sit voluptatibus cupiditate eos.</p>
                                     <div class="tool-list-product">
                                         <ul class="content-list">
-                                            <li data-toggle="tooltip" data-placement="top" title="Add To Cart">
+                                            <li data-toggle="tooltip" data-placement="top" title="Add To Cart" class="btn-cart-adds">
                                                 <div class="btn-carts">
                                                     <span><i class="fas fa-shopping-bag"></i></span>
                                                     <p> Add To Cart</p>
@@ -1013,7 +1013,7 @@
                                         Sit voluptatibus cupiditate eos.</p>
                                     <div class="tool-list-product">
                                         <ul class="content-list">
-                                            <li data-toggle="tooltip" data-placement="top" title="Add To Cart">
+                                            <li data-toggle="tooltip" data-placement="top" title="Add To Cart" class="btn-cart-adds">
                                                 <div class="btn-carts">
                                                     <span><i class="fas fa-shopping-bag"></i></span>
                                                     <p> Add To Cart</p>

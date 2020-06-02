@@ -152,8 +152,9 @@
         display: none;
     }
     /* checkout */
-    .checkoutleft{
+    .checkoutleft {
         margin-bottom: 50px;
+    }
     .banner-page2 {
         padding: 30px !important;
     }
@@ -193,6 +194,48 @@
     .content-fm {
         display: block !important;
     }
+    .tool-list-product {
+        display: block !important;
+    }
+    #product-detail {
+        padding: 20px 0 !important;
+    }
+    .color-modal-product {
+        display: block !important;
+    }
+    .tool-list-product {
+        margin-top: 20px !important;
+        display: block !important;
+    }
+    .content-list {
+        width: 100%;
+        flex-direction: column-reverse;
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .content-list li {
+        margin: 10px 0;
+    }
+    .qty-block {
+        margin-bottom: 10px;
+        margin-right: 0 !important;
+    }
+    .title-modal-product {
+        margin-top: 25px;
+    }
+    .infor-basic {
+        justify-content: center;
+    }
+    .infor-basic span,
+    .tct-rank ul li,
+    .number-reviews,
+    .create-review {
+        font-size: 13px;
+    }
+    .content-product-details>ul {
+        justify-content: center !important;
+    }
 }
 
 @media screen and (max-width:430px) {
@@ -205,15 +248,16 @@
     .tct-left {
         padding: 0 19px;
     }
-    
+}
 
-@media screen and (max-width:800px){
-    .checkoutleft h4{
+@media screen and (max-width:800px) {
+    .checkoutleft h4 {
         margin: auto;
         padding-bottom: 30px;
         font-size: 20px;
     }
 }
+
 @media screen and (max-width:335px) {
     .content-home-about h1 {
         font-size: 30px;
@@ -222,21 +266,19 @@
         font-size: 20px;
         padding: 15px 0;
     }
-    .checkoutleft h4{
-        margin: auto;
-        padding-bottom: 30px;
-        font-size: 16px;
-
-    }
-    .checkoutleft h5{
+    .checkoutleft h4 {
         margin: auto;
         padding-bottom: 30px;
         font-size: 16px;
     }
-    .checkoutleft input[type=checkbox]{
-        width:  20px;
+    .checkoutleft h5 {
+        margin: auto;
+        padding-bottom: 30px;
+        font-size: 16px;
     }
-}
+    .checkoutleft input[type=checkbox] {
+        width: 20px;
+    }
 }
 
 @media screen and (min-width:1024px) and (max-width:1300px) {
@@ -245,11 +287,10 @@
         width: auto !important;
         padding-left: 5px !important;
     }
-    .t_pdprice{
+    .t_pdprice {
         font-size: 12px !important;
         padding-top: 5px;
     }
-    
     .menu-black li a {
         padding: 0 13px !important;
     }
@@ -258,6 +299,9 @@
     }
     .price-product-tmp {
         padding-bottom: 10px !important;
+    }
+    #product-detail {
+        padding-bottom: 0px !important;
     }
 }
 

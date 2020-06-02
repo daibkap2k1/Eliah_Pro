@@ -107,11 +107,11 @@
                     </div>
                     <div class="lable-thumbail">
                         <span class="label-thum bg-red">
-                            -30%
+                            -35%
                         </span>
-                        {{-- <span class="label-thum bg-blue">
+                        <span class="label-thum bg-blue">
                             New
-                        </span> --}}
+                        </span>
                     </div>
                 </div>
                 <div class="thumbnail position-relative">
@@ -149,9 +149,14 @@
                             $21.00 <span>$49.00</span>
                         </div>
                     </div>
-                    <span class="label-thum bg-blue">
-                        New
-                    </span>
+                    <div class="lable-thumbail">
+                        <span class="label-thum bg-red">
+                            -35%
+                        </span>
+                        <span class="label-thum bg-blue">
+                            New
+                        </span>
+                    </div>
                 </div>
                 <div class="thumbnail position-relative">
                     <div class="img-thum position-relative">

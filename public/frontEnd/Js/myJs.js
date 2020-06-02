@@ -68,7 +68,20 @@ var owlChooseImg = $('#img-choose .owl-carousel');
 owlChooseImg.owlCarousel({
     loop: true,
     items: 5,
-    margin: 18
+    margin: 18,
+    responsive: {
+        0: {
+            items: 3,
+            margin: 5
+        },
+        768: {
+            items: 4,
+            margin: 7
+        },
+        1000: {
+            items: 4
+        }
+    }
 });
 // end owl-choose-image 
 

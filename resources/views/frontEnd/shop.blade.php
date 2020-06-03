@@ -1,6 +1,10 @@
 @extends('layouts/frontEnd/layoutFrontEnd2')
 @section('titleWeb',"Shop")
 @section('content')
+<section class="banner-page2 text-center">
+    <h1>Shop</h1>
+    <p><a href="">Home</a>/ <span>Shop</span> </p>
+</section>
 <section class="wp-box">
     <div class="wp-container container">
         <div class="row">

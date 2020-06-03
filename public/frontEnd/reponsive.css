@@ -383,6 +383,7 @@
     .tct-left {
         padding: 0 19px;
     }
+    
 }
 
 @media screen and (max-width:800px) {
@@ -390,6 +391,9 @@
         margin: auto;
         padding-bottom: 30px;
         font-size: 20px;
+    }
+    .t_updatecart h6 {
+        padding-left: 10px !important;
     }
 }
 
@@ -414,6 +418,22 @@
     .checkoutleft input[type=checkbox] {
         width: 20px;
     }
+    .t_active {
+        display: block;
+    }
+    .t_cartactive {
+        margin: 40px 0px 30px 0px;
+        padding-left: 60px;
+    }
+    .t_continue{
+        padding-bottom: 15px;
+    }
+    .t_cartactive .t_clearcart a {
+        display: flex;
+        color: red;
+        padding-bottom: 15px;
+    }
+    
 }
 
 @media screen and (min-width:1024px) and (max-width:1300px) {
@@ -507,5 +527,80 @@
     }
     #search label {
         line-height: 36px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .errorbot{
+        display: block !important;
+    }
+    #error-page{
+        width: 100%;
+    }
+    .errortop h1{
+        font-size: 20px;
+    }
+    table {
+      border: 0;
+    }
+  
+    table caption {
+      font-size: 1.3em;
+    }
+    
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: 40px;
+    }
+    
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+    }
+    
+    table td::before {
+      /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    table td:last-child {
+      border-bottom: 0;
+      text-align: center;
+    }
+    
+    .t_coupontext{
+        width: 100% !important;
+    }
+    #t_formcode{
+        width: 100% !important;
+    }
+    table td .t_buttonaddcart{
+        width: 50%;
+        text-align: center;
+    }
+    .errortop h1 {
+        font-family: Spartan-bold;
+        font-weight: 900;
+        font-size: 50px !important;
+        color: #E9625C;
     }
 }

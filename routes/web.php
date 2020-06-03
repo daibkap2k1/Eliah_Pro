@@ -30,3 +30,15 @@ Route::get('/product-detail', function () {
 Route::get('/Checkout', function () {
     return view('frontEnd/Checkout');
 });
+
+Route::get('/Cart', function () {
+    return view('frontEnd/Cart');
+});
+
+Route::get('/Wishlist', function () {
+    return view('frontEnd/Wishlist');
+});
+
+Route::get('/Error', function () {
+    return view('frontEnd/Error');
+});

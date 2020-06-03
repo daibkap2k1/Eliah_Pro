@@ -223,6 +223,17 @@ ul.th-right li:hover .thr-active {
 
 nav {
     padding: 20px 0 21px 0;
+    background: #fff;
+    transition: all 0.5s;
+}
+
+.nav-active-k {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #e6d6d6;
+    z-index: 20;
+    padding: 10px 0;
 }
 
 .logo-nav {
@@ -336,7 +347,7 @@ ul.menu li:hover a::after {
 /* menu-mobi  */
 
 .mobile-nav {
-    display: none;
+    /* display: none; */
     padding-top: 70px;
     text-align: center;
     position: fixed;
@@ -344,13 +355,16 @@ ul.menu li:hover a::after {
     top: 0;
     background: rgba(0, 0, 0, 0.9);
     height: 100%;
-    z-index: 9999;
+    z-index: -2;
     left: -999px;
     transition: all 1.5s;
+    opacity: 0;
 }
 
 .mobile-nav-active {
     left: 0;
+    opacity: 1;
+    z-index: 9999 !important;
 }
 
 .icon-close {
@@ -819,11 +833,30 @@ footer {
     bottom: 44px;
     position: absolute;
     z-index: 10;
+    cursor: pointer;
 }
 
 .avtar-video img {
     width: 100%;
-    height: auto;
+    height: 500px;
+    object-fit: cover;
+}
+
+.avtar-video>span {
+    display: block;
+    font-size: 30px;
+    color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    background: #fff;
+    border: solid 1px #e1e1e1;
+    border-radius: 50%;
 }
 
 .list-serive-home div ul>li a {
@@ -1857,7 +1890,7 @@ footer {
 
 .qty input {
     width: 50px;
-    padding-left: 18px;
+    padding-left: 11px;
     border: none !important;
     outline: none;
 }
@@ -2521,3 +2554,163 @@ p.text-blog-detail-ns:first-child {
 
 
 /* end services  */
+
+
+/* --home-about  */
+
+.box-img-home-about {
+    /* border: solid 1px red; */
+    height: 626px;
+    position: relative;
+}
+
+.box-igabout-first img {
+    width: 362px;
+    height: 438px;
+    object-fit: cover;
+}
+
+.box-igabout-first {
+    position: absolute;
+    left: 0;
+    z-index: 6;
+    padding: 8px;
+    background: #fff;
+}
+
+.box-igabout-second img {
+    width: 377px;
+    height: 424px;
+    object-fit: cover;
+}
+
+.box-igabout-second {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+    padding: 8px;
+    background: #fff;
+}
+
+.box-img-home-about::after {
+    content: " ";
+    position: absolute;
+    background-image: url('images/after-home.png');
+    background-position: bottom left;
+    height: 626px;
+    width: 100%;
+    bottom: 115px;
+    left: -60px;
+    background-repeat: no-repeat;
+}
+
+.box-img-home-about::before {
+    content: " ";
+    position: absolute;
+    background-image: url('images/before-home.png');
+    background-position: top right;
+    height: 626px;
+    width: 100%;
+    top: 0;
+    right: -81px;
+    background-repeat: no-repeat;
+}
+
+.year-title {
+    font-weight: 900;
+    font-family: 'Spartan-bold';
+}
+
+.logo-brand-footer {
+    position: relative;
+}
+
+.logob-f {
+    height: 500px;
+    background: #f7f5f4;
+    padding-top: 70px;
+}
+
+.logob-f-img {
+    width: 180px !important;
+    height: 80px;
+    object-fit: cover;
+}
+
+.list-sale {
+    background: #fff;
+    height: 500px;
+    padding-top: 350px;
+}
+
+.box-list-sale {
+    display: flex;
+}
+
+.content-list-sale {
+    padding-left: 30px;
+}
+
+.content-list-sale h3 {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.box-new-about-item {
+    position: absolute;
+    top: 30%;
+    left: 19%;
+    background: #f26460;
+    padding: 90px 262px;
+    height: 433px;
+    width: 1170px;
+    text-align: center;
+}
+
+.box-new-about-item h2 {
+    font-size: 70px;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box-new-about-item a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 15px 30px;
+    border: 1px solid #fff;
+}
+
+.btn-controller-left-lf {
+    font-size: 30px;
+    top: 45%;
+    left: -30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.btn-controller-right-lf {
+    font-size: 30px;
+    top: 45%;
+    right: -30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.img-reps {
+    width: 100%;
+    text-align: center;
+}
+
+.img-reps img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+/* end home about  */

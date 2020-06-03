@@ -70,13 +70,13 @@
                     </div>
                     <div class="tool-list-product d-flex border-bottom">
                         <div class="qty-block">
-                            <div class="qty_inc_dec">
+                            <div class="qty_inc_dec dec">
                                 <i class="fas fa-minus"></i>
                             </div>
                             <div class="qty">
-                                <input type="text" name="qty" maxlength="12" value="1" title="" class="input-text" />
+                                <input type="number" name="qty"  value="1" title="" class="input-text" id="number-quan" />
                             </div>
-                            <div class="qty_inc_dec">
+                            <div class="qty_inc_dec add">
                                 <i class="fas fa-plus"></i>
                             </div>
                         </div>

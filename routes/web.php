@@ -39,3 +39,6 @@ Route::get('/blog-detail', function () {
 Route::get('/services', function () {
     return view('frontEnd/services');
 });
+Route::get('/about', function () {
+    return view('frontEnd/about');
+});

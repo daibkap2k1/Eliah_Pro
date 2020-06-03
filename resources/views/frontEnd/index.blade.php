@@ -22,11 +22,19 @@
     </div>
 </section>
 <section class="about-home">
-    <div class="container-fluid">
+    <div class="container wp-container">
         <div class="row">
-            <div class="col-12 col-lg-6 text-right">
-                <div class="img-home-about">
+            <div class="col-12 col-lg-6 text-right d-none d-lg-block">
+                {{-- <div class="img-home-about">
                     <img src="{{asset('public/frontEnd/images/home/about-home.png')}}" alt="">
+                </div> --}}
+                <div class="box-img-home-about">
+                    <div class="box-igabout-first">
+                        <img src="{{asset('public/frontEnd/images/home-about2.jpg')}}" alt="">
+                    </div>
+                    <div class="box-igabout-second">
+                        <img src="{{asset('public/frontEnd/images/home-about.jpg')}}" alt="">
+                    </div>
                 </div>
             </div>
             <div class="col-12 col-lg-6 text-left">
@@ -57,7 +65,8 @@
             </div>
         </div>
         <div class="avtar-video" data-toggle="modal" data-target="#exampleModalvideo">
-            <img src="{{asset('public/frontEnd/images/home/about-home-2.png')}}" alt="">
+            <img src="{{asset('public/frontEnd/images/img-movi.jpg')}}" alt="">
+            <span><i class="fas fa-play"></i></span>
         </div>
     </div>
 </section>

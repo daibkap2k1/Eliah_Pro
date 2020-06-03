@@ -454,19 +454,30 @@
                                             <span class="box-color" style="background-color: red"></span>
                                         </div>
                                     </div>
-                                    <div class="tool-list-product">
+                                    <div class="tool-list-product d-flex border-bottom">
+                                        <div class="qty-block">
+                                            <div class="qty_inc_dec dec">
+                                                <i class="fas fa-minus"></i>
+                                            </div>
+                                            <div class="qty">
+                                                <input type="number" name="qty"  value="1" title="" class="input-text" id="number-quan" />
+                                            </div>
+                                            <div class="qty_inc_dec add">
+                                                <i class="fas fa-plus"></i>
+                                            </div>
+                                        </div>
                                         <ul class="content-list">
-                                            <li data-toggle="tooltip" data-placement="top" title="Add To Cart">
+                                            <li data-toggle="tooltip" data-placement="top" title="Add To Cart" class="btn-cart-adds">
                                                 <div class="btn-carts">
                                                     <span><i class="fas fa-shopping-bag"></i></span>
-                                                  <p> Add To Cart</p>
+                                                    <p> Add To Cart</p>
                                                 </div>
                                             </li>
                                             <li data-toggle="tooltip" data-placement="top" title="View Product"><span><i
                                                         class="fas fa-eye"></i></span></li>
                                             <li data-toggle="tooltip" data-placement="top" title="Add To Heart"><span><i
                                                         class="fas fa-heart"></i></span></li>
-    
+                
                                         </ul>
                                     </div>
                                 </div>

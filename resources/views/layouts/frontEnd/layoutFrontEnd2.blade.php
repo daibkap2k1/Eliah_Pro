@@ -164,11 +164,6 @@
             </div>
         </div>
     </nav>
-    <section class="banner-page2 text-center">
-        <h1>Shop</h1>
-        <p>Home / <span>Shop</span> </p>
-    </section>
-
     @yield('content')
 
     {{-- <div class="banner-footer-sp cover" style="background-image: url('{{asset('public/frontEnd/images/footer-banner.png')}}')">

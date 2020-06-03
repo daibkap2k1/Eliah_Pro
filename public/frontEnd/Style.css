@@ -1960,6 +1960,176 @@ footer {
 /* End product detail  */
 
 
+/* Cart */
+
+.t_cartmain h6 {
+    font-weight: 900;
+    font-family: Spartan-bold;
+}
+
+.t_cartmain th {
+    font-weight: 900;
+    font-family: Spartan-bold;
+}
+
+.t_cartmain p {
+    margin-bottom: 2px;
+}
+
+.t_viewtable {
+    width: 100%;
+}
+
+.t_viewtable .t_cartimg {
+    padding: 35px 0px 35px 12px;
+}
+
+.t_viewtable td {
+    padding: 60px 0px 0px 12px;
+}
+
+.t_viewtable td a {
+    color: red;
+    font-size: 25px;
+}
+
+.t_buttonaddcart {
+    background-color: #111111;
+    color: #fff;
+    width: 100%;
+    padding: 3px;
+}
+
+.t_cartqty .qty-block {
+    border: none !important;
+    padding: 0;
+}
+
+.t_cartqty .qty-block .qty_inc_dec {
+    padding: 0px 5px 0px 0px;
+}
+
+.t_cartactive .t_continue a {
+    display: flex;
+    color: red;
+}
+
+.t_cartactive .t_clearcart a {
+    display: flex;
+    color: red;
+}
+
+.t_cartactive .t_updatecart a {
+    display: flex;
+    color: red;
+}
+
+.t_cartactive .t_continue h6 {
+    padding-left: 10px;
+    color: #111111;
+}
+
+.t_cartactive .t_continue i {
+    color: red;
+}
+
+.t_cartactive {
+    margin: 40px 0px 60px 0px;
+}
+
+.t_active {
+    display: flex;
+}
+
+.t_active {
+    justify-content: space-between;
+}
+
+.t_clearcart {
+    display: flex;
+    color: red;
+}
+
+.t_updatecart {
+    display: flex;
+    color: red;
+}
+
+.t_clearcart h6 {
+    padding-left: 10px;
+    color: #111111;
+}
+
+.t_updatecart h6 {
+    padding-left: 10px;
+    color: #111111;
+}
+
+.t_coupontext {
+    float: left;
+    width: 50%;
+}
+
+#t_formcode {
+    width: 50%;
+    float: right;
+}
+
+#t_formcode button {
+    color: #fff;
+    background-color: #000000;
+    width: 100%;
+}
+
+.t_couponcode {
+    background-color: #F7F6F4;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.t_total {
+    background-color: #F7F6F4;
+    padding: 35px;
+}
+
+.t_total h4 {
+    font-family: Spartan-bold;
+    font-weight: 900;
+}
+
+.t_st {
+    padding: 20px 0px 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.t_tt {
+    padding: 0px 0px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.t_total button {
+    width: 100%;
+    color: #fff;
+    background-color: #111111;
+    padding: 10px;
+    border: solid #F7F6F4;
+}
+
+.t_total span {
+    font-family: Spartan-bold;
+    font-weight: 900;
+    color: red;
+}
+
+
+/* error404 */
+
+
 /* Blog */
 
 .left-blog {

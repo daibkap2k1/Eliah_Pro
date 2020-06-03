@@ -236,6 +236,141 @@
     .content-product-details>ul {
         justify-content: center !important;
     }
+    .space-whitle {
+        display: none;
+    }
+    .author-post {
+        display: block;
+    }
+    .right-cpr-blog-top>div {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .content-post-right-blogs {
+        display: block;
+        position: relative !important;
+    }
+    .text-thumb-cpr {
+        position: absolute;
+        top: -50px;
+    }
+    .right-cpr-blog-top {
+        padding-left: 0px;
+    }
+    .cpr-blog {
+        text-align: center;
+    }
+    .right-cpr-blog {
+        text-align: center;
+    }
+    .left-blog {
+        padding-right: 0px;
+        padding-top: 20px;
+        border-top: 1px solid #e1e1e1 !important;
+    }
+    .search-blog {
+        display: none;
+    }
+    .flow-me-blog>ul {
+        justify-content: center;
+    }
+    .category-blog {
+        display: none !important;
+    }
+    .title-left-blog {
+        font-size: 25px;
+    }
+    .img-cpp {
+        width: 120px;
+        height: 120px;
+    }
+    .img-cpp img {
+        object-fit: cover;
+        width: 120px;
+        height: 120px;
+    }
+    .img-blog-detail-center {
+        display: block !important;
+    }
+    #blog-detail .content-post-right-blogs {
+        margin-bottom: 10px;
+        padding-top: 10px;
+        bottom: -50px;
+    }
+    .tag-share {
+        display: block !important;
+    }
+    .tags-name ul li a {
+        padding: 0 !important;
+    }
+    .tags-name {
+        margin-bottom: 10px;
+    }
+    .form-blog-detail {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    /* --------service  */
+    .service {
+        padding: 15px;
+    }
+    .img-service {
+        position: relative;
+        height: 311px;
+    }
+    .img-service::before {
+        content: '';
+        position: absolute;
+        background-image: url('images/bg-services.png');
+        background-position: center;
+        height: 311px;
+        width: 100%;
+        left: 0px;
+        top: 15px;
+    }
+    .service-reverse.img-service::before {
+        content: '';
+        position: absolute;
+        background-image: url('images/bg-right-services.png');
+        background-position: center;
+        height: 311px;
+        width: 100%;
+        left: 0px;
+        top: 65px;
+        background-repeat: no-repeat;
+    }
+    .img-service .first-img {
+        position: absolute;
+        bottom: 0;
+        z-index: 9;
+    }
+    .service-reverse.img-service .first-img {
+        position: absolute;
+        bottom: 0;
+        z-index: 10;
+        right: 0;
+    }
+    .service-reverse.img-service .second-img {
+        position: absolute;
+        left: 0px;
+        z-index: 9;
+    }
+    .img-service .second-img {
+        position: absolute;
+        right: 0;
+        z-index: 10;
+    }
+    .img-service .first-img img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
+    .img-service .second-img img {
+        width: 185px;
+        height: 250px;
+        object-fit: cover;
+    }
+    /* end service  */
 }
 
 @media screen and (max-width:430px) {
@@ -322,6 +457,48 @@
     }
     #product-detail {
         padding-bottom: 0px !important;
+    }
+    .wp-box {
+        padding: 90px 9px;
+    }
+    .service-reverse.img-service::before {
+        left: 0 !important;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .img-service .first-img img {
+        width: 300px !important;
+        height: 300px !important;
+        object-fit: cover;
+    }
+    .img-service .second-img img {
+        width: 300px !important;
+        height: 300px !important;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:375px) {
+    .img-service .second-img {
+        right: 60px !important;
+    }
+    .service-reverse.img-service .second-img {
+        text-align: right;
+    }
+}
+
+@media screen and (min-width:376px) and (max-width:425px) {
+    .img-service .second-img {
+        right: 60px !important;
+    }
+    .service-reverse.img-service .second-img {
+        text-align: right;
+    }
+    .img-service .second-img {
+        position: absolute;
+        right: 100px !important;
+        z-index: 10;
     }
 }
 

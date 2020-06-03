@@ -42,3 +42,12 @@ Route::get('/Wishlist', function () {
 Route::get('/Error', function () {
     return view('frontEnd/Error');
 });
+Route::get('/blog', function () {
+    return view('frontEnd/blog');
+});
+Route::get('/blog-detail', function () {
+    return view('frontEnd/blog-detail');
+});
+Route::get('/services', function () {
+    return view('frontEnd/services');
+});

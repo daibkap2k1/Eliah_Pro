@@ -27,44 +27,54 @@
                         <h3 class="title-left-blog">Category</h3>
                         <ul>
                             <li>
-                                <div class="title-cate-blog">
-                                    Beauty tips
-                                </div>
-                                <div class="number-cate-blog">
-                                    36
-                                </div>
+                                <a href="{{route('blog-detail')}}">
+                                    <div class="title-cate-blog">
+                                        Beauty tips
+                                    </div>
+                                    <div class="number-cate-blog">
+                                        36
+                                    </div>
+                                </a>
                             </li>
                             <li>
-                                <div class="title-cate-blog">
-                                    Make up
-                                </div>
-                                <div class="number-cate-blog">
-                                    36
-                                </div>
+                                <a href="{{route('blog-detail')}}">
+                                    <div class="title-cate-blog">
+                                        Make up
+                                    </div>
+                                    <div class="number-cate-blog">
+                                        36
+                                    </div>
+                                </a>
                             </li>
                             <li>
-                                <div class="title-cate-blog">
-                                    Skin care
-                                </div>
-                                <div class="number-cate-blog">
-                                    12
-                                </div>
+                                <a href="{{route('blog-detail')}}">
+                                    <div class="title-cate-blog">
+                                        Skin care
+                                    </div>
+                                    <div class="number-cate-blog">
+                                        12
+                                    </div>
+                                </a>
                             </li>
                             <li>
-                                <div class="title-cate-blog">
-                                    Body care
-                                </div>
-                                <div class="number-cate-blog">
-                                    36
-                                </div>
+                                <a href="{{route('blog-detail')}}">
+                                    <div class="title-cate-blog">
+                                        Body care
+                                    </div>
+                                    <div class="number-cate-blog">
+                                        36
+                                    </div>
+                                </a>
                             </li>
                             <li>
-                                <div class="title-cate-blog">
-                                    Videos
-                                </div>
-                                <div class="number-cate-blog">
-                                    27
-                                </div>
+                                <a href="{{route('blog-detail')}}">
+                                    <div class="title-cate-blog">
+                                        Videos
+                                    </div>
+                                    <div class="number-cate-blog">
+                                        27
+                                    </div>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -72,7 +82,7 @@
                         <h3 class="title-left-blog">Popular post</h3>
                         <div class="row">
                             <div class="col-12 col-md-6 col-lg-12">
-                                <a href="" class="item-cpps">
+                                <a href="{{route('blog-detail')}}" class="item-cpps">
                                     <div class="img-cpp">
                                         <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
                                     </div>
@@ -83,19 +93,7 @@
                                 </a>
                             </div>
                             <div class="col-12 col-md-6 col-lg-12">
-                                <a href="" class="item-cpps">
-                                    <div class="img-cpp">
-                                        <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
-                                    </div>
-                                    <div class="content-item-cpp">
-                                        <h4>Proven Techniques Help You Herbal Breast</h4>
-                                        <p>13 Now 2020</p>
-                                    </div>
-                                </a>
-                            </div>
-                            
-                            <div class="col-12 col-md-6 col-lg-12">
-                                <a href="" class="item-cpps">
+                                <a href="{{route('blog-detail')}}" class="item-cpps">
                                     <div class="img-cpp">
                                         <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
                                     </div>
@@ -106,7 +104,7 @@
                                 </a>
                             </div>
                             <div class="col-12 col-md-6 col-lg-12">
-                                <a href="" class="item-cpps">
+                                <a href="{{route('blog-detail')}}" class="item-cpps">
                                     <div class="img-cpp">
                                         <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
                                     </div>
@@ -117,7 +115,7 @@
                                 </a>
                             </div>
                             <div class="col-12 col-md-6 col-lg-12">
-                                <a href="" class="item-cpps">
+                                <a href="{{route('blog-detail')}}" class="item-cpps">
                                     <div class="img-cpp">
                                         <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
                                     </div>
@@ -128,7 +126,18 @@
                                 </a>
                             </div>
                             <div class="col-12 col-md-6 col-lg-12">
-                                <a href="" class="item-cpps">
+                                <a href="{{route('blog-detail')}}" class="item-cpps">
+                                    <div class="img-cpp">
+                                        <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
+                                    </div>
+                                    <div class="content-item-cpp">
+                                        <h4>Proven Techniques Help You Herbal Breast</h4>
+                                        <p>13 Now 2020</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-12">
+                                <a href="{{route('blog-detail')}}" class="item-cpps">
                                     <div class="img-cpp">
                                         <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
                                     </div>
@@ -170,7 +179,7 @@
                             </div>
                         </div>
                         <div class="col-lg-12 col-12">
-                            <div class="box-content-post-blog">
+                        <a href="{{route('blog-detail')}}" class="box-content-post-blog">
                                 <div class="img-top-post position-relative">
                                     <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
                                     <div class="space-whitle">
@@ -195,12 +204,12 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-lg-6 col-12 col-md-6">
-                            <div class="box-content-post-blog">
+                            <a href="" class="box-content-post-blog">
                                 <div class="img-post-right-blog">
                                     <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
                                     <div class="author-post">
@@ -226,10 +235,10 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-lg-6 col-12 col-md-6">
-                            <div class="box-content-post-blog">
+                            <a href="" class="box-content-post-blog">
                                 <div class="img-post-right-blog">
                                     <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
                                     <div class="author-post">
@@ -255,10 +264,10 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-lg-6 col-12 col-md-6">
-                            <div class="box-content-post-blog">
+                            <a href="" class="box-content-post-blog">
                                 <div class="img-post-right-blog">
                                     <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
                                     <div class="author-post">
@@ -284,10 +293,10 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-lg-6 col-12 col-md-6">
-                            <div class="box-content-post-blog">
+                            <a href="" class="box-content-post-blog">
                                 <div class="img-post-right-blog">
                                     <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
                                     <div class="author-post">
@@ -313,10 +322,10 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-lg-6 col-12 col-md-6">
-                            <div class="box-content-post-blog">
+                            <a href="" class="box-content-post-blog">
                                 <div class="img-post-right-blog">
                                     <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
                                     <div class="author-post">
@@ -342,10 +351,10 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-lg-6 col-12 col-md-6">
-                            <div class="box-content-post-blog">
+                            <a href="" class="box-content-post-blog">
                                 <div class="img-post-right-blog">
                                     <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
                                     <div class="author-post">
@@ -371,7 +380,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class="paginations">

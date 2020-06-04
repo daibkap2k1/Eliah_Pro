@@ -127,18 +127,18 @@
         <div class="container wp-container">
             <div class="row">
                 <div class="col-lg-3 col-md-3 text-left">
-                    <a href="" class="logo-nav-black">
+                    <a href="{{route('index')}}" class="logo-nav-black">
                         <img src="{{asset('public/frontEnd/images/logoweb2.png')}}" alt="">
                     </a>
                 </div>
                 <div class="col-lg-5 col-md-5 text-center">
                     <ul class="menu d-inline-flex menu-black">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Service</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Shop</a></li>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li><a href="{{route('index')}}">Home</a></li>
+                        <li><a href="{{route('service')}}">Service</a></li>
+                        <li><a href="{{route('about')}}">About</a></li>
+                        <li><a href="{{route('shop')}}">Shop</a></li>
+                        <li><a href="{{route('blog')}}">Blog</a></li>
+                        <li><a href="{{route('contact')}}">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-4 col-md-4 text-right">
@@ -147,7 +147,7 @@
                             <img src="{{asset('public/frontEnd/images/search-black.png')}}" alt="">
                         </li>
                         <li>
-                            <img src="{{asset('public/frontEnd/images/heart-black.png')}}" alt="">
+                        <a href="{{route('wishlist')}}"><img src="{{asset('public/frontEnd/images/heart-black.png')}}" alt=""></a>
                         </li>
                         <li class="position-relative cart-icon cart-icon-black">
                             <img src="{{asset('public/frontEnd/images/cart-black.png')}}" alt="">
@@ -351,12 +351,12 @@
             <i class="fas fa-times"></i>
         </div>
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Service</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Shop</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="{{route('index')}}">Home</a></li>
+            <li><a href="{{route('service')}}">Service</a></li>
+            <li><a href="{{route('about')}}">About</a></li>
+            <li><a href="{{route('shop')}}">Shop</a></li>
+            <li><a href="{{route('blog')}}">Blog</a></li>
+            <li><a href="{{route('contact')}}">Contact</a></li>
             <li><a href="">Login</a></li>
             <li><a href="">Logout</a></li>
         </ul>
@@ -422,8 +422,8 @@
                     </span>
                 </div>
                 <div class="select-button">
-                    <a href="" class="btn btn-dark btn-lg">View card</a>
-                    <a href="" class="btn btn-danger btn-lg"> Check out</a>
+                    <a href="{{route('cart')}}" class="btn btn-dark btn-lg">View card</a>
+                    <a href="{{route('checkout')}}" class="btn btn-danger btn-lg"> Check out</a>
                 </div>
             </div>
         </div>

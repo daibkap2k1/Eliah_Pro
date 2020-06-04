@@ -15,12 +15,12 @@
                         <img src="{{asset('public/frontEnd/images/song.png')}}" alt="">
                     </div>
                     <ul class="content-boxsl">
-                        <li><a href="">Spa</a></li>
-                        <li><a href="">Beauty</a></li>
-                        <li><a href="">Make up</a></li>
-                        <li><a href="">Skincare</a></li>
-                        <li><a href="">Body care</a></li>
-                        <li><a href="">Tools</a></li>
+                        <li><a href="{{route('product-detail')}}">Spa</a></li>
+                        <li><a href="{{route('product-detail')}}">Beauty</a></li>
+                        <li><a href="{{route('product-detail')}}">Make up</a></li>
+                        <li><a href="{{route('product-detail')}}">Skincare</a></li>
+                        <li><a href="{{route('product-detail')}}">Body care</a></li>
+                        <li><a href="{{route('product-detail')}}">Tools</a></li>
                     </ul>
                 </div>
                 <div class="box-sl">
@@ -169,7 +169,7 @@
                                     </div>
                                 </div>
                                 <div class="title-ct">
-                                    <a href="">The expect mascaraa</a>
+                                    <a href="{{route('product-detail')}}">The expect mascaraa</a>
                                 </div>
                                 <div class="price-ct">
                                     $21.00 <span>$49.00</span>
@@ -217,7 +217,7 @@
                                     </div>
                                 </div>
                                 <div class="title-ct">
-                                    <a href="">The expect mascaraa</a>
+                                    <a href="{{route('product-detail')}}">The expect mascaraa</a>
                                 </div>
                                 <div class="price-ct">
                                     $21.00 <span>$49.00</span>
@@ -261,7 +261,7 @@
                                     </div>
                                 </div>
                                 <div class="title-ct">
-                                    <a href="">The expect mascaraa</a>
+                                    <a href="{{route('product-detail')}}">The expect mascaraa</a>
                                 </div>
                                 <div class="price-ct">
                                     $21.00 <span>$49.00</span>
@@ -708,7 +708,7 @@
                     <div class="col-md-12 list-cslp">
                         <div class="row">
                             <div class="col-md-4 p-0">
-                                <a href="" class="img-list-cslp position-relative">
+                                <a href="{{route('product-detail')}}" class="img-list-cslp position-relative">
                                     <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
                                 </a>
                                 <div class="lable-thumbail">
@@ -737,7 +737,7 @@
                                         </div>
                                     </div>
                                     <div class="title-ct">
-                                        <a href="">The expect mascaraa</a>
+                                        <a href="{{route('product-detail')}}">The expect mascaraa</a>
                                     </div>
                                     <div class="price-ct">
                                         $21.00 <span>$49.00</span>

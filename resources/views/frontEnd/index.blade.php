@@ -27,29 +27,29 @@
             <div class="col-12 col-lg-6 text-right d-none d-lg-block">
                 {{-- <div class="img-home-about">
                     <img src="{{asset('public/frontEnd/images/home/about-home.png')}}" alt="">
-                </div> --}}
-                <div class="box-img-home-about">
-                    <div class="box-igabout-first">
-                        <img src="{{asset('public/frontEnd/images/home-about2.jpg')}}" alt="">
-                    </div>
-                    <div class="box-igabout-second">
-                        <img src="{{asset('public/frontEnd/images/home-about.jpg')}}" alt="">
-                    </div>
+            </div> --}}
+            <div class="box-img-home-about">
+                <div class="box-igabout-first">
+                    <img src="{{asset('public/frontEnd/images/home-about2.jpg')}}" alt="">
                 </div>
-            </div>
-            <div class="col-12 col-lg-6 text-left">
-                <div class="content-home-about">
-                    <p>About <span>Eliah</span></p>
-                    <h1>When You Look good, you feel good</h1>
-                    <img src="{{asset('public/frontEnd/images/song.png')}}" alt="">
-                    <p class="text-cha">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe nulla, magnam
-                        delectus velit
-                        dolorum optio aperiam cumque libero soluta quas harum est alias doloremque nobis deserunt
-                        commodi cum perferendis repellat!</p>
-                    <a href="" class="btn-cha">Appointment</a>
+                <div class="box-igabout-second">
+                    <img src="{{asset('public/frontEnd/images/home-about.jpg')}}" alt="">
                 </div>
             </div>
         </div>
+        <div class="col-12 col-lg-6 text-left">
+            <div class="content-home-about">
+                <p>About <span>Eliah</span></p>
+                <h1>When You Look good, you feel good</h1>
+                <img src="{{asset('public/frontEnd/images/song.png')}}" alt="">
+                <p class="text-cha">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe nulla, magnam
+                    delectus velit
+                    dolorum optio aperiam cumque libero soluta quas harum est alias doloremque nobis deserunt
+                    commodi cum perferendis repellat!</p>
+                <a href="" class="btn-cha">Appointment</a>
+            </div>
+        </div>
+    </div>
     </div>
     <div class="wp-ah position-relative">
         <div class="wp-container container">
@@ -81,12 +81,13 @@
             <div class="owl-carousel owl-theme">
                 <div class="thumbnail position-relative">
                     <div class="img-thum position-relative">
-                        <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
+                        <img src="{{asset('public/frontEnd/images/product/demo-pro.jpg')}}" alt="">
                         <ul class="content-it align-items-center">
                             <li data-toggle="tooltip" data-placement="top" title="Add To Cart"><span><i
                                         class="fas fa-shopping-bag"></i></span></li>
                             <li data-toggle="tooltip modal" data-placement="top" title="View Product"><span><i
-                                        class="fas fa-eye" data-toggle="modal" data-target="#modal-product"></i></span></li>
+                                        class="fas fa-eye" data-toggle="modal" data-target="#modal-product"></i></span>
+                            </li>
                             <li data-toggle="tooltip" data-placement="top" title="Add To Heart"><span><i
                                         class="fas fa-heart"></i></span></li>
 
@@ -125,12 +126,13 @@
                 </div>
                 <div class="thumbnail position-relative">
                     <div class="img-thum position-relative">
-                        <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
+                        <img src="{{asset('public/frontEnd/images/product/demo-pro.jpg')}}" alt="">
                         <ul class="content-it align-items-center">
                             <li data-toggle="tooltip" data-placement="top" title="Add To Cart"><span><i
                                         class="fas fa-shopping-bag"></i></span></li>
                             <li data-toggle="tooltip modal" data-placement="top" title="View Product"><span><i
-                                        class="fas fa-eye" data-toggle="modal" data-target="#modal-product"></i></span></li>
+                                        class="fas fa-eye" data-toggle="modal" data-target="#modal-product"></i></span>
+                            </li>
                             <li data-toggle="tooltip" data-placement="top" title="Add To Heart"><span><i
                                         class="fas fa-heart"></i></span></li>
 
@@ -169,12 +171,13 @@
                 </div>
                 <div class="thumbnail position-relative">
                     <div class="img-thum position-relative">
-                        <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
+                        <img src="{{asset('public/frontEnd/images/product/demo-pro.jpg')}}" alt="">
                         <ul class="content-it align-items-center">
                             <li data-toggle="tooltip" data-placement="top" title="Add To Cart"><span><i
                                         class="fas fa-shopping-bag"></i></span></li>
                             <li data-toggle="tooltip modal" data-placement="top" title="View Product"><span><i
-                                        class="fas fa-eye" data-toggle="modal" data-target="#modal-product"></i></span></li>
+                                        class="fas fa-eye" data-toggle="modal" data-target="#modal-product"></i></span>
+                            </li>
                             <li data-toggle="tooltip" data-placement="top" title="Add To Heart"><span><i
                                         class="fas fa-heart"></i></span></li>
 
@@ -227,24 +230,24 @@
             <div class="row">
                 <div class="col-lg-6 d-none d-lg-block">
                     <div class="row">
-                        <div class="col-md-3"><img src="{{asset('public/frontEnd/images/face/home-face-1.png')}}"
-                                alt=""></div>
-                        <div class="col-md-3"><img src="{{asset('public/frontEnd/images/face/home-face-1.png')}}"
-                                alt=""></div>
-                        <div class="col-md-3"><img src="{{asset('public/frontEnd/images/face/home-face-1.png')}}"
-                                alt=""></div>
-                        <div class="col-md-3"><img src="{{asset('public/frontEnd/images/face/home-face-1.png')}}"
-                                alt=""></div>
+                        <div class="col-md-3"><img src="{{asset('public/frontEnd/images/product/demo-pro.jpg')}}" alt=""
+                                class="fixImg"></div>
+                        <div class="col-md-3"><img src="{{asset('public/frontEnd/images/product/demo-pro.jpg')}}" alt=""
+                                class="fixImg"></div>
+                        <div class="col-md-3"><img src="{{asset('public/frontEnd/images/product/demo-pro.jpg')}}" alt=""
+                                class="fixImg"></div>
+                        <div class="col-md-3"><img src="{{asset('public/frontEnd/images/product/demo-pro.jpg')}}" alt=""
+                                class="fixImg"></div>
                     </div>
                     <div class="row mt-3">
-                        <div class="col-md-3"><img src="{{asset('public/frontEnd/images/face/home-face-1.png')}}"
-                                alt=""></div>
-                        <div class="col-md-3"><img src="{{asset('public/frontEnd/images/face/home-face-1.png')}}"
-                                alt=""></div>
-                        <div class="col-md-3"><img src="{{asset('public/frontEnd/images/face/home-face-1.png')}}"
-                                alt=""></div>
-                        <div class="col-md-3"><img src="{{asset('public/frontEnd/images/face/home-face-1.png')}}"
-                                alt=""></div>
+                        <div class="col-md-3"><img src="{{asset('public/frontEnd/images/product/demo-pro.jpg')}}" alt=""
+                            class="fixImg"></div>
+                    <div class="col-md-3"><img src="{{asset('public/frontEnd/images/product/demo-pro.jpg')}}" alt=""
+                            class="fixImg"></div>
+                    <div class="col-md-3"><img src="{{asset('public/frontEnd/images/product/demo-pro.jpg')}}" alt=""
+                            class="fixImg"></div>
+                    <div class="col-md-3"><img src="{{asset('public/frontEnd/images/product/demo-pro.jpg')}}" alt=""
+                            class="fixImg"></div>
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
@@ -335,7 +338,8 @@
             <div class="col-lg-4 col-12 mb-2 col-md-6">
                 <div class="thumbnail box-shadow box-team-pfnal">
                     <div class="img-thum">
-                        <img src="{{asset('public/frontEnd/images/home/team.jpg')}}" alt="">
+                        <img src="{{asset('public/frontEnd/images/product/demo-pro.jpg')}}" alt=""
+                            >
                     </div>
                     <div class="content-thum text-center team-pfnal">
                         <h4>Danielle Welling</h4>

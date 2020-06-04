@@ -63,7 +63,7 @@
     </header>
     <nav>
         <div class="container wp-container">
-            <a href="" class="logo-nav">
+            <a href="{{route('index')}}" class="logo-nav">
                 <img src="{{asset('public/frontEnd/images/logoweb.png')}}" alt="">
             </a>
             <form action="" class="search-header form-inline" method="get">
@@ -77,12 +77,12 @@
                 </div>
             </form>
             <ul class="menu d-inline-flex">
-                <li><a href="">Home</a></li>
-                <li><a href="">Service</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Shop</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="{{route('index')}}">Home</a></li>
+                <li><a href="{{route('service')}}">Service</a></li>
+                <li><a href="{{route('about')}}">About</a></li>
+                <li><a href="{{route('shop')}}">Shop</a></li>
+                <li><a href="{{route('blog')}}">Blog</a></li>
+                <li><a href="{{route('contact')}}">Contact</a></li>
             </ul>
             <ul class="list-icon-nav d-inline-flex">
                 <li data-toggle="modal" data-target="#exampleModal">
@@ -94,17 +94,14 @@
                     </div>
                 </li>
                 <li>
-                    <img src="{{asset('public/frontEnd/images/heart-icon.png')}}" alt="">
-                    <div class="heart-icon d-none">
-                        âfafa
-                    </div>
+                    <a href="{{asset(route('wishlist'))}}"><img src="{{asset('public/frontEnd/images/heart-icon.png')}}"
+                            alt=""></a>
                 </li>
                 <li class="position-relative cart-icon">
+
                     <img src="{{asset('public/frontEnd/images/icon-cart.png')}}" alt="">
                     <span>0</span>
-                    <div class="d-none">
 
-                    </div>
                 </li>
                 <li>
                     <span>Cart :$ 0.00</span>
@@ -353,8 +350,8 @@
                     </span>
                 </div>
                 <div class="select-button">
-                    <a href="" class="btn btn-dark btn-lg">View card</a>
-                    <a href="" class="btn btn-danger btn-lg"> Check out</a>
+                <a href="{{route('cart')}}" class="btn btn-dark btn-lg">View card</a>
+                <a href="{{route('checkout')}}" class="btn btn-danger btn-lg"> Check out</a>
                 </div>
             </div>
         </div>
@@ -379,107 +376,114 @@
         </div>
     </div>
     {{-- end search  --}}
-        <!-- The Modal -->
-        <div class="modal fade" id="modal-product">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content pd-55px">
-                    <!-- Modal body -->
-                    <div class="modal-body">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                    <ol class="carousel-indicators">
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                    </ol>
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img class="d-block set-img" src="{{asset('public/frontEnd/images/product/demo-shop.png')}}" alt="First slide">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="d-block set-img" src="{{asset('public/frontEnd/images/product/demo-shop.png')}}" alt="Second slide">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="d-block set-img" src="{{asset('public/frontEnd/images/product/demo-shop.png')}}" alt="Third slide">
-                                        </div>
+    <!-- The Modal -->
+    <div class="modal fade" id="modal-product">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content pd-55px">
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block set-img"
+                                            src="{{asset('public/frontEnd/images/product/demo-shop.png')}}"
+                                            alt="First slide">
                                     </div>
-                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
-                                        data-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
-                                        data-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Next</span>
-                                    </a>
+                                    <div class="carousel-item">
+                                        <img class="d-block set-img"
+                                            src="{{asset('public/frontEnd/images/product/demo-shop.png')}}"
+                                            alt="Second slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block set-img"
+                                            src="{{asset('public/frontEnd/images/product/demo-shop.png')}}"
+                                            alt="Third slide">
+                                    </div>
                                 </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="title-modal-product border-bottom">
-                                    <div class="label-tmp">
-                                        Cheek & Coutour
-                                    </div>
-                                    <h4>Velvet Melon High Intensity</h4>
-                                    <div class="infor-basic">
-                                        <div class="tct-rank d-inline-block">
-                                            <ul class="d-flex">
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                                <li><i class="far fa-star"></i></li>
-                                            </ul>
-                                        </div>
-                                        <span>/</span>
-                                        <div class="number-reviews">
-                                            03 reviews
-                                        </div>
-                                    </div>
-                                    <div class="price-product-tmp">
-                                        $<span>34.00</span>
-                                    </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="title-modal-product border-bottom">
+                                <div class="label-tmp">
+                                    Cheek & Coutour
                                 </div>
-                                <div class="content-modal-product">
-                                    <ul>
-                                        <li><span>Brand:</span>Korea</li>
-                                        <li><span>Product code:</span>PM 001</li>
-                                    </ul>
-                                    <div class="color-modal-product">
-                                        <span>Color:</span>
-                                        <div class="collect-color d-inline-block float-left">
-                                            <span class="box-color" style="background-color: black"></span>
-                                            <span class="box-color" style="background-color: rgb(31, 218, 87)"></span>
-                                            <span class="box-color" style="background-color: red"></span>
-                                        </div>
-                                    </div>
-                                    <div class="tool-list-product d-flex border-bottom">
-                                        <div class="qty-block">
-                                            <div class="qty_inc_dec dec">
-                                                <i class="fas fa-minus"></i>
-                                            </div>
-                                            <div class="qty">
-                                                <input type="number" name="qty"  value="1" title="" class="input-text" id="number-quan" />
-                                            </div>
-                                            <div class="qty_inc_dec add">
-                                                <i class="fas fa-plus"></i>
-                                            </div>
-                                        </div>
-                                        <ul class="content-list">
-                                            <li data-toggle="tooltip" data-placement="top" title="Add To Cart" class="btn-cart-adds">
-                                                <div class="btn-carts">
-                                                    <span><i class="fas fa-shopping-bag"></i></span>
-                                                    <p> Add To Cart</p>
-                                                </div>
-                                            </li>
-                                            <li data-toggle="tooltip" data-placement="top" title="View Product"><span><i
-                                                        class="fas fa-eye"></i></span></li>
-                                            <li data-toggle="tooltip" data-placement="top" title="Add To Heart"><span><i
-                                                        class="fas fa-heart"></i></span></li>
-                
+                                <h4>Velvet Melon High Intensity</h4>
+                                <div class="infor-basic">
+                                    <div class="tct-rank d-inline-block">
+                                        <ul class="d-flex">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
                                         </ul>
                                     </div>
+                                    <span>/</span>
+                                    <div class="number-reviews">
+                                        03 reviews
+                                    </div>
+                                </div>
+                                <div class="price-product-tmp">
+                                    $<span>34.00</span>
+                                </div>
+                            </div>
+                            <div class="content-modal-product">
+                                <ul>
+                                    <li><span>Brand:</span>Korea</li>
+                                    <li><span>Product code:</span>PM 001</li>
+                                </ul>
+                                <div class="color-modal-product">
+                                    <span>Color:</span>
+                                    <div class="collect-color d-inline-block float-left">
+                                        <span class="box-color" style="background-color: black"></span>
+                                        <span class="box-color" style="background-color: rgb(31, 218, 87)"></span>
+                                        <span class="box-color" style="background-color: red"></span>
+                                    </div>
+                                </div>
+                                <div class="tool-list-product d-flex border-bottom">
+                                    <div class="qty-block">
+                                        <div class="qty_inc_dec dec">
+                                            <i class="fas fa-minus"></i>
+                                        </div>
+                                        <div class="qty">
+                                            <input type="number" name="qty" value="1" title="" class="input-text"
+                                                id="number-quan" />
+                                        </div>
+                                        <div class="qty_inc_dec add">
+                                            <i class="fas fa-plus"></i>
+                                        </div>
+                                    </div>
+                                    <ul class="content-list">
+                                        <li data-toggle="tooltip" data-placement="top" title="Add To Cart"
+                                            class="btn-cart-adds">
+                                            <div class="btn-carts">
+                                                <span><i class="fas fa-shopping-bag"></i></span>
+                                                <p> Add To Cart</p>
+                                            </div>
+                                        </li>
+                                        <li data-toggle="tooltip" data-placement="top" title="View Product"><span><i
+                                                    class="fas fa-eye"></i></span></li>
+                                        <li data-toggle="tooltip" data-placement="top" title="Add To Heart"><span><i
+                                                    class="fas fa-heart"></i></span></li>
+
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -487,8 +491,9 @@
                 </div>
             </div>
         </div>
-    
-        {{-- end-modal product  --}}
+    </div>
+
+    {{-- end-modal product  --}}
 
 </body>
 <script src="{{asset('public/frontEnd/Js/jquery-3.5.1.min.js')}}"></script>

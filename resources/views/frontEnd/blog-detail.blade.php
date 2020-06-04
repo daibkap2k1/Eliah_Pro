@@ -26,44 +26,54 @@
                         <h3 class="title-left-blog">Category</h3>
                         <ul>
                             <li>
-                                <div class="title-cate-blog">
-                                    Beauty tips
-                                </div>
-                                <div class="number-cate-blog">
-                                    36
-                                </div>
+                                <a href="{{route('blog-detail')}}">
+                                    <div class="title-cate-blog">
+                                        Beauty tips
+                                    </div>
+                                    <div class="number-cate-blog">
+                                        36
+                                    </div>
+                                </a>
                             </li>
                             <li>
-                                <div class="title-cate-blog">
-                                    Make up
-                                </div>
-                                <div class="number-cate-blog">
-                                    36
-                                </div>
+                                <a href="{{route('blog-detail')}}">
+                                    <div class="title-cate-blog">
+                                        Make up
+                                    </div>
+                                    <div class="number-cate-blog">
+                                        36
+                                    </div>
+                                </a>
                             </li>
                             <li>
-                                <div class="title-cate-blog">
-                                    Skin care
-                                </div>
-                                <div class="number-cate-blog">
-                                    12
-                                </div>
+                                <a href="{{route('blog-detail')}}">
+                                    <div class="title-cate-blog">
+                                        Skin care
+                                    </div>
+                                    <div class="number-cate-blog">
+                                        12
+                                    </div>
+                                </a>
                             </li>
                             <li>
-                                <div class="title-cate-blog">
-                                    Body care
-                                </div>
-                                <div class="number-cate-blog">
-                                    36
-                                </div>
+                                <a href="{{route('blog-detail')}}">
+                                    <div class="title-cate-blog">
+                                        Body care
+                                    </div>
+                                    <div class="number-cate-blog">
+                                        36
+                                    </div>
+                                </a>
                             </li>
                             <li>
-                                <div class="title-cate-blog">
-                                    Videos
-                                </div>
-                                <div class="number-cate-blog">
-                                    27
-                                </div>
+                                <a href="{{route('blog-detail')}}">
+                                    <div class="title-cate-blog">
+                                        Videos
+                                    </div>
+                                    <div class="number-cate-blog">
+                                        27
+                                    </div>
+                                </a>
                             </li>
                         </ul>
                     </div>

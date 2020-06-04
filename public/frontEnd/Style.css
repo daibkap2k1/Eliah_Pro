@@ -281,6 +281,7 @@ ul.menu li:hover a::after {
 .list-icon-nav li {
     padding: 8px 15px;
     cursor: pointer;
+    display: block;
 }
 
 .list-icon-nav li:last-child {
@@ -300,6 +301,7 @@ ul.menu li:hover a::after {
     position: absolute;
     top: 14px;
     left: 20px;
+    color: #111111;
 }
 
 .search-icon input {
@@ -905,8 +907,9 @@ footer {
 }
 
 .img-thum img {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 232px;
+    object-fit: cover;
 }
 
 .content-thum {
@@ -1998,6 +2001,7 @@ footer {
     color: #fff;
     width: 100%;
     padding: 3px;
+    border: 1px solid #111111;
 }
 
 .t_cartqty .qty-block {
@@ -2214,13 +2218,16 @@ form.search-blog::after {
 }
 
 .category-blog>ul>li {
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 22px;
     cursor: pointer;
 }
 
-.category-blog>ul>li>div {
+.category-blog>ul>li>a {
+    display: flex;
+    justify-content: space-between;
+}
+
+.category-blog>ul>li>a>div {
     color: #9b9b9b;
 }
 
@@ -2312,6 +2319,7 @@ form.search-blog::after {
 
 .box-content-post-blog {
     margin-bottom: 45px;
+    display: block;
 }
 
 .cpr-blog-top {
@@ -2386,10 +2394,25 @@ form.search-blog::after {
     line-height: 50px;
     background: #fff;
     padding-right: 50px;
+    color: #111111;
 }
 
 .right-cpr-blog-top>div {
     margin-bottom: 20px;
+}
+
+.right-cpr-blog-top>p {
+    color: #111111;
+}
+
+.fixImg {
+    width: 118px;
+    height: 118px;
+    object-fit: cover;
+}
+
+.author-post-top {
+    color: #111111;
 }
 
 .author-post-top span {
@@ -2401,6 +2424,7 @@ form.search-blog::after {
     font-size: 20px;
     font-family: 'Spartan-medium';
     font-weight: bold;
+    color: #111111;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -2420,6 +2444,7 @@ form.search-blog::after {
     -webkit-line-clamp: 2;
     /* number of lines to show */
     -webkit-box-orient: vertical;
+    color: #111111;
 }
 
 

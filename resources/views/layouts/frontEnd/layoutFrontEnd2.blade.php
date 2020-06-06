@@ -15,114 +15,186 @@
 </head>
 
 <body>
-
-    <header>
-        <div class="container wp-container clearfix">
-            <div class="top-header float-left">
-                <ul class="th-left d-inline-flex">
-                    <li><a href="" style="padding-left: 0"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
-                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
-                    <li><a href=""><i class="fab fa-youtube"></i></a></li>
-                </ul>
-                <div class="th-center d-inline-block">
-                    <p>Free shipping on international orders of $120+</p>
+    <div class="menu-roots">
+        <header>
+            <div class="container wp-container clearfix">
+                <div class="top-header float-left">
+                    <ul class="th-left d-inline-flex">
+                        <li><a href="" style="padding-left: 0"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                    <div class="th-center d-inline-block">
+                        <p>Free shipping on international orders of $120+</p>
+                    </div>
+                    <ul class="th-right d-inline-flex">
+                        <li>
+                            <div class="thr-root-click format-money">
+                                <span class="thr-text">USD</span>
+                                <i class="fas fa-angle-down"></i>
+                            </div>
+                            <ul class="thr-active">
+                                <li><a href="">VNĐ</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="thr-root-click lang">
+                                <span class="thr-text">ENG</span>
+                                <i class="fas fa-angle-down"></i>
+                            </div>
+                            <ul class="thr-active">
+                                <li><a href="">VN</a></li>
+                            </ul>
+                        </li>
+                        <li style="padding-right: 0px">
+                            <div class="thr-root-click">
+                                <a href="#" class="thr-text" style="text-decoration: none; color:#e9e9e9">Sign in</a>
+                                <i class="fas fa-angle-down"></i>
+                            </div>
+                            <ul class="thr-active">
+                                <li><a href="" class="thr-text">Login</a></li>
+                                <li><a href="" class="thr-text">Registration</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
-                <ul class="th-right d-inline-flex">
-                    <li>
-                        <div class="thr-root-click format-money">
-                            <span class="thr-text">USD</span>
-                            <i class="fas fa-angle-down"></i>
-                        </div>
-                        <ul class="thr-active">
-                            <li><a href="">VNĐ</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <div class="thr-root-click lang">
-                            <span class="thr-text">ENG</span>
-                            <i class="fas fa-angle-down"></i>
-                        </div>
-                        <ul class="thr-active">
-                            <li><a href="">VN</a></li>
-                        </ul>
-                    </li>
-                    <li style="padding-right: 0px">
-                        <div class="thr-root-click">
-                            <a href="#" class="thr-text" style="text-decoration: none; color:#e9e9e9">Sign in</a>
-                            <i class="fas fa-angle-down"></i>
-                        </div>
-                        <ul class="thr-active">
-                            <li><a href="" class="thr-text">Login</a></li>
-                            <li><a href="" class="thr-text">Registration</a></li>
-                        </ul>
-                    </li>
-                </ul>
             </div>
-        </div>
-    </header>
-    <nav>
-        <div class="container wp-container">
-            <a href="{{route('index')}}" class="logo-nav">
-                <img src="{{asset('public/frontEnd/images/logoweb.png')}}" alt="">
-            </a>
-            <form action="" class="search-header form-inline" method="get">
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="What do you need?">
-                    <div class="input-group-append">
-                        <button class="btn" type="button">
-                            <i class="fa fa-search text-white"></i>
-                        </button>
-                    </div>
-                </div>
-            </form>
-            <ul class="menu d-inline-flex">
-                <li><a href="{{route('index')}}">Home</a></li>
-                <li><a href="{{route('service')}}">Service</a></li>
-                <li><a href="{{route('about')}}">About</a></li>
-                <li><a href="{{route('shop')}}">Shop</a></li>
-                <li><a href="{{route('blog')}}">Blog</a></li>
-                <li><a href="{{route('contact')}}">Contact</a></li>
-            </ul>
-            <ul class="list-icon-nav d-inline-flex">
-                <li data-toggle="modal" data-target="#exampleModal">
-                    <img src="{{asset('public/frontEnd/images/search-icon.png')}}" alt="">
-                    <div class="search-icon d-none">
-                        <form action="">
-                            <input type="text" name="search">
-                        </form>
-                    </div>
-                </li>
-                <li>
-                    <a href="{{asset(route('wishlist'))}}"><img src="{{asset('public/frontEnd/images/heart-icon.png')}}"
-                            alt=""></a>
-                </li>
-                <li class="position-relative cart-icon">
-
-                    <img src="{{asset('public/frontEnd/images/icon-cart.png')}}" alt="">
-                    <span>0</span>
-
-                </li>
-                <li>
-                    <span>Cart :$ 0.00</span>
-                </li>
-            </ul>
-            <div class="icon-menu-mobi justify-content-between">
-                <a class="position-relative">
-                    <i class="fas fa-shopping-bag"></i>
-                    <span>0</span>
+        </header>
+        <nav>
+            <div class="container wp-container">
+                <a href="" class="logo-nav">
+                    <img src="{{asset('public/frontEnd/images/logoweb.png')}}" alt="">
                 </a>
-                <div class="icon-bar">
-                    <i class="fas fa-bars"></i>
+                <form action="" class="search-header form-inline" method="get">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="What do you need?">
+                        <div class="input-group-append">
+                            <button class="btn" type="button">
+                                <i class="fa fa-search text-white"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                <ul class="menu d-inline-flex">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Service</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Shop</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+                <ul class="list-icon-nav d-inline-flex">
+                    <li data-toggle="modal" data-target="#exampleModal">
+                        <img src="{{asset('public/frontEnd/images/search-icon.png')}}" alt="">
+                        <div class="search-icon d-none">
+                            <form action="">
+                                <input type="text" name="search">
+                            </form>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="{{asset('public/frontEnd/images/heart-icon.png')}}" alt="">
+                        <div class="heart-icon d-none">
+                            âfafa
+                        </div>
+                    </li>
+                    <li class="position-relative cart-icon">
+                        <img src="{{asset('public/frontEnd/images/icon-cart.png')}}" alt="">
+                        <span>0</span>
+                        <div class="d-none">
+
+                        </div>
+                    </li>
+                    <li>
+                        <span>Cart :$ 0.00</span>
+                    </li>
+                </ul>
+                <div class="icon-menu-mobi justify-content-between">
+                    <a class="position-relative">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span>0</span>
+                    </a>
+                    <div class="icon-bar">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </div>
+    <nav id="menu-other">
+        <div class="container wp-container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 text-left">
+                    <a href="{{route('index')}}" class="logo-nav-black">
+                        <img src="{{asset('public/frontEnd/images/logoweb2.png')}}" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-5 col-md-5 text-center">
+                    <ul class="menu d-inline-flex menu-black">
+                        <li><a href="{{route('index')}}">Home</a></li>
+                        <li><a href="{{route('service')}}">Service</a></li>
+                        <li><a href="{{route('about')}}">About</a></li>
+                        <li><a href="{{route('shop')}}">Shop</a></li>
+                        <li><a href="{{route('blog')}}">Blog</a></li>
+                        <li><a href="{{route('contact')}}">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 text-right">
+                    <ul class="list-icon-nav d-inline-flex list-icon-nav-black">
+                        <li data-toggle="modal" data-target="#exampleModal">
+                            <img src="{{asset('public/frontEnd/images/search-black.png')}}" alt="">
+                        </li>
+                        <li>
+                        <a href="{{route('wishlist')}}"><img src="{{asset('public/frontEnd/images/heart-black.png')}}" alt=""></a>
+                        </li>
+                        <li class="position-relative cart-icon cart-icon-black">
+                            <img src="{{asset('public/frontEnd/images/cart-black.png')}}" alt="">
+                            <span>0</span>
+                            <div class="d-none">
+
+                            </div>
+                        </li>
+                        <li>
+                            <span class="text-white">Cart :$ 0.00</span>
+                        </li>
+                    </ul>
                 </div>
             </div>
-
         </div>
     </nav>
-
     @yield('content')
 
+    {{-- <div class="banner-footer-sp cover" style="background-image: url('{{asset('public/frontEnd/images/footer-banner.png')}}')">
 
+    </div> --}}
+    <section id="banner-footer">
+        <div class="banner-footer-sp cover"
+            style="background-image: url('{{asset('public/frontEnd/images/footer-banner01.png')}}')">
+
+        </div>
+        <div class="banner-footer-sp cover"
+            style="background-image: url('{{asset('public/frontEnd/images/footer-banner01.png')}}')">
+
+        </div>
+        <div class="banner-footer-sp cover"
+            style="background-image: url('{{asset('public/frontEnd/images/footer-banner01.png')}}')">
+
+        </div>
+        <div class="banner-footer-sp cover"
+            style="background-image: url('{{asset('public/frontEnd/images/footer-banner01.png')}}')">
+
+        </div>
+        <div class="banner-footer-sp cover"
+            style="background-image: url('{{asset('public/frontEnd/images/footer-banner01.png')}}')">
+
+        </div>
+        <div class="banner-footer-sp cover"
+            style="background-image: url('{{asset('public/frontEnd/images/footer-banner01.png')}}')">
+
+        </div>
+    </section>
     <footer>
         <div class="container wp-container">
             <div class="footer-top">
@@ -279,12 +351,12 @@
             <i class="fas fa-times"></i>
         </div>
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Service</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Shop</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="{{route('index')}}">Home</a></li>
+            <li><a href="{{route('service')}}">Service</a></li>
+            <li><a href="{{route('about')}}">About</a></li>
+            <li><a href="{{route('shop')}}">Shop</a></li>
+            <li><a href="{{route('blog')}}">Blog</a></li>
+            <li><a href="{{route('contact')}}">Contact</a></li>
             <li><a href="">Login</a></li>
             <li><a href="">Logout</a></li>
         </ul>
@@ -350,8 +422,8 @@
                     </span>
                 </div>
                 <div class="select-button">
-                <a href="{{route('cart')}}" class="btn btn-dark btn-lg">View cart</a>
-                <a href="{{route('checkout')}}" class="btn btn-danger btn-lg"> Check out</a>
+                    <a href="{{route('cart')}}" class="btn btn-dark btn-lg">View card</a>
+                    <a href="{{route('checkout')}}" class="btn btn-danger btn-lg"> Check out</a>
                 </div>
             </div>
         </div>
@@ -376,6 +448,7 @@
         </div>
     </div>
     {{-- end search  --}}
+    {{-- --modal-product --}}
     <!-- The Modal -->
     <div class="modal fade" id="modal-product">
         <div class="modal-dialog modal-xl">
@@ -457,19 +530,7 @@
                                         <span class="box-color" style="background-color: red"></span>
                                     </div>
                                 </div>
-                                <div class="tool-list-product d-flex border-bottom">
-                                    <div class="qty-block">
-                                        <div class="qty_inc_dec dec">
-                                            <i class="fas fa-minus"></i>
-                                        </div>
-                                        <div class="qty">
-                                            <input type="number" name="qty" value="1" title="" class="input-text"
-                                                id="number-quan" />
-                                        </div>
-                                        <div class="qty_inc_dec add">
-                                            <i class="fas fa-plus"></i>
-                                        </div>
-                                    </div>
+                                <div class="tool-list-product">
                                     <ul class="content-list">
                                         <li data-toggle="tooltip" data-placement="top" title="Add To Cart"
                                             class="btn-cart-adds">

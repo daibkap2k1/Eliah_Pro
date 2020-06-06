@@ -1194,6 +1194,9 @@ footer {
 .banner-page2 {
     padding: 50px;
     background: #e1e1e1;
+    height: 208px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .banner-page2 h1 {
@@ -1443,7 +1446,7 @@ footer {
 }
 
 .img-list-cslp img {
-    max-width: 100%;
+    width: 100%;
     height: 335px;
     object-fit: cover;
 }

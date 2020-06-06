@@ -147,7 +147,7 @@
 </section>
 
 <div class="wp-box cover"
-    style="background-image: url('http://localhost:8888/eliah/public/frontEnd/images/home/banner-footer.jpg')">
+    style="background-image: url('{{asset('public/frontEnd/images/home/banner-footer.jpg')}}')">
     <div class="container wp-container text-center">
         <div class="form-service">
             <div class="bp-title text-center">

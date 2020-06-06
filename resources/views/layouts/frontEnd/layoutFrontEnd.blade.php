@@ -350,7 +350,7 @@
                     </span>
                 </div>
                 <div class="select-button">
-                <a href="{{route('cart')}}" class="btn btn-dark btn-lg">View card</a>
+                <a href="{{route('cart')}}" class="btn btn-dark btn-lg">View cart</a>
                 <a href="{{route('checkout')}}" class="btn btn-danger btn-lg"> Check out</a>
                 </div>
             </div>

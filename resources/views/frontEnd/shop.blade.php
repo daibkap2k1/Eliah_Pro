@@ -1,7 +1,7 @@
 @extends('layouts/frontEnd/layoutFrontEnd2')
 @section('titleWeb',"Shop")
 @section('content')
-<section class="banner-page2 text-center">
+<section class="banner-page2 text-center" style="background-image: url('{{asset('public/frontEnd/images/home/banner-footer.jpg')}}')">
     <h1>Shop</h1>
     <p><a href="">Home</a>/ <span>Shop</span> </p>
 </section>
@@ -141,7 +141,7 @@
                     <div class="col-lg-4 col-md-6 box-cslp active-block">
                         <div class="thumbnail position-relative">
                             <div class="img-thum position-relative set-img-shop">
-                                <img src="{{asset('public/frontEnd/images/product/demo-shop.png')}}" alt="">
+                                <img src="{{asset('public/frontEnd/images/product/demo-pro.jpg')}}" alt="">
                                 <ul class="content-it align-items-center">
                                     <li data-toggle="tooltip" data-placement="top" title="Add To Cart"><span><i
                                                 class="fas fa-shopping-bag"></i></span></li>
@@ -189,7 +189,7 @@
                     <div class="col-lg-4 col-md-6 box-cslp active-block">
                         <div class="thumbnail position-relative">
                             <div class="img-thum position-relative set-img-shop">
-                                <img src="{{asset('public/frontEnd/images/product/demo-shop.png')}}" alt="">
+                                <img src="{{asset('public/frontEnd/images/product/demo-pro2.jpg')}}" alt="">
                                 <ul class="content-it align-items-center">
                                     <li data-toggle="tooltip" data-placement="top" title="Add To Cart"><span><i
                                                 class="fas fa-shopping-bag"></i></span></li>
@@ -233,7 +233,7 @@
                     <div class="col-lg-4 col-md-6 box-cslp active-block">
                         <div class="thumbnail position-relative">
                             <div class="img-thum position-relative set-img-shop">
-                                <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
+                                <img src="{{asset('public/frontEnd/images/product/demo-pro3.jpg')}}" alt="">
                                 <ul class="content-it align-items-center">
                                     <li data-toggle="tooltip" data-placement="top" title="Add To Cart"><span><i
                                                 class="fas fa-shopping-bag"></i></span></li>
@@ -277,7 +277,7 @@
                     <div class="col-lg-4 col-md-6 box-cslp active-block">
                         <div class="thumbnail position-relative">
                             <div class="img-thum position-relative set-img-shop">
-                                <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
+                                <img src="{{asset('public/frontEnd/images/product/demo-pro4.jpg')}}" alt="">
                                 <ul class="content-it align-items-center">
                                     <li data-toggle="tooltip" data-placement="top" title="Add To Cart"><span><i
                                                 class="fas fa-shopping-bag"></i></span></li>
@@ -329,7 +329,7 @@
                     <div class="col-lg-4 col-md-6 box-cslp active-block">
                         <div class="thumbnail position-relative">
                             <div class="img-thum position-relative set-img-shop">
-                                <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
+                                <img src="{{asset('public/frontEnd/images/product/demo-pro5.jpg')}}" alt="">
                                 <ul class="content-it align-items-center">
                                     <li data-toggle="tooltip" data-placement="top" title="Add To Cart"><span><i
                                                 class="fas fa-shopping-bag"></i></span></li>
@@ -376,7 +376,7 @@
                     <div class="col-lg-4 col-md-6 box-cslp active-block">
                         <div class="thumbnail position-relative">
                             <div class="img-thum position-relative set-img-shop">
-                                <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
+                                <img src="{{asset('public/frontEnd/images/product/demo-pro.jpg')}}" alt="">
                                 <ul class="content-it align-items-center">
                                     <li data-toggle="tooltip" data-placement="top" title="Add To Cart"><span><i
                                                 class="fas fa-shopping-bag"></i></span></li>
@@ -423,7 +423,7 @@
                     <div class="col-lg-4 col-md-6 box-cslp active-block">
                         <div class="thumbnail position-relative">
                             <div class="img-thum position-relative set-img-shop">
-                                <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
+                                <img src="{{asset('public/frontEnd/images/product/demo-pro7.jpg')}}" alt="">
                                 <ul class="content-it align-items-center">
                                     <li data-toggle="tooltip" data-placement="top" title="Add To Cart"><span><i
                                                 class="fas fa-shopping-bag"></i></span></li>
@@ -470,7 +470,7 @@
                     <div class="col-lg-4 col-md-6 box-cslp active-block">
                         <div class="thumbnail position-relative">
                             <div class="img-thum position-relative set-img-shop">
-                                <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
+                                <img src="{{asset('public/frontEnd/images/product/demo-pro3.jpg')}}" alt="">
                                 <ul class="content-it align-items-center">
                                     <li data-toggle="tooltip" data-placement="top" title="Add To Cart"><span><i
                                                 class="fas fa-shopping-bag"></i></span></li>
@@ -517,7 +517,7 @@
                     <div class="col-lg-4 col-md-6 box-cslp active-block">
                         <div class="thumbnail position-relative">
                             <div class="img-thum position-relative set-img-shop">
-                                <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
+                                <img src="{{asset('public/frontEnd/images/product/demo-pro3.jpg')}}" alt="">
                                 <ul class="content-it align-items-center">
                                     <li data-toggle="tooltip" data-placement="top" title="Add To Cart"><span><i
                                                 class="fas fa-shopping-bag"></i></span></li>
@@ -564,7 +564,7 @@
                     <div class="col-lg-4 col-md-6 box-cslp active-block">
                         <div class="thumbnail position-relative">
                             <div class="img-thum position-relative set-img-shop">
-                                <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
+                                <img src="{{asset('public/frontEnd/images/product/demo-pro4.jpg')}}" alt="">
                                 <ul class="content-it align-items-center">
                                     <li data-toggle="tooltip" data-placement="top" title="Add To Cart"><span><i
                                                 class="fas fa-shopping-bag"></i></span></li>
@@ -611,7 +611,7 @@
                     <div class="col-lg-4 col-md-6 box-cslp active-block">
                         <div class="thumbnail position-relative">
                             <div class="img-thum position-relative set-img-shop">
-                                <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
+                                <img src="{{asset('public/frontEnd/images/product/demo-pro5.jpg')}}" alt="">
                                 <ul class="content-it align-items-center">
                                     <li data-toggle="tooltip" data-placement="top" title="Add To Cart"><span><i
                                                 class="fas fa-shopping-bag"></i></span></li>
@@ -658,7 +658,7 @@
                     <div class="col-lg-4 col-md-6 box-cslp active-block">
                         <div class="thumbnail position-relative">
                             <div class="img-thum position-relative set-img-shop">
-                                <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
+                                <img src="{{asset('public/frontEnd/images/product/demo-pro6.jpg')}}" alt="">
                                 <ul class="content-it align-items-center">
                                     <li data-toggle="tooltip" data-placement="top" title="Add To Cart"><span><i
                                                 class="fas fa-shopping-bag"></i></span></li>
@@ -709,7 +709,7 @@
                         <div class="row">
                             <div class="col-md-4 p-0">
                                 <a href="{{route('product-detail')}}" class="img-list-cslp position-relative">
-                                    <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
+                                    <img src="{{asset('public/frontEnd/images/product/demo-pro7.jpg')}}" alt="">
                                 </a>
                                 <div class="lable-thumbail">
                                     <span class="label-thum bg-red">
@@ -775,7 +775,7 @@
                         <div class="row">
                             <div class="col-md-4 p-0">
                                 <a href="" class="img-list-cslp position-relative">
-                                    <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
+                                    <img src="{{asset('public/frontEnd/images/product/demo-pro.jpg')}}" alt="">
                                 </a>
                                 <div class="lable-thumbail">
                                     <span class="label-thum bg-red">
@@ -841,7 +841,7 @@
                         <div class="row">
                             <div class="col-md-4 p-0">
                                 <a href="" class="img-list-cslp position-relative">
-                                    <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
+                                    <img src="{{asset('public/frontEnd/images/product/demo-pro5.jpg')}}" alt="">
                                 </a>
                                 <div class="lable-thumbail">
                                     <span class="label-thum bg-red">
@@ -907,7 +907,7 @@
                         <div class="row">
                             <div class="col-md-4 p-0">
                                 <a href="" class="img-list-cslp position-relative">
-                                    <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
+                                    <img src="{{asset('public/frontEnd/images/product/demo-pro2.jpg')}}" alt="">
                                 </a>
                                 <div class="lable-thumbail">
                                     <span class="label-thum bg-red">
@@ -973,7 +973,7 @@
                         <div class="row">
                             <div class="col-md-4 p-0">
                                 <a href="" class="img-list-cslp position-relative">
-                                    <img src="{{asset('public/frontEnd/images/product/demo-pro.png')}}" alt="">
+                                    <img src="{{asset('public/frontEnd/images/product/demo-pro3.jpg')}}" alt="">
                                 </a>
                                 <div class="lable-thumbail">
                                     <span class="label-thum bg-red">

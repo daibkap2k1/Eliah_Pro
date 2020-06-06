@@ -81,7 +81,7 @@
             <div class="owl-carousel owl-theme">
                 <div class="thumbnail position-relative">
                     <div class="img-thum position-relative">
-                        <img src="{{asset('public/frontEnd/images/product/demo-pro.jpg')}}" alt="">
+                        <img src="{{asset('public/frontEnd/images/product/demo-pro3.jpg')}}" alt="">
                         <ul class="content-it align-items-center">
                             <li data-toggle="tooltip" data-placement="top" title="Add To Cart"><span><i
                                         class="fas fa-shopping-bag"></i></span></li>
@@ -126,7 +126,7 @@
                 </div>
                 <div class="thumbnail position-relative">
                     <div class="img-thum position-relative">
-                        <img src="{{asset('public/frontEnd/images/product/demo-pro.jpg')}}" alt="">
+                        <img src="{{asset('public/frontEnd/images/product/demo-pro7.jpg')}}" alt="">
                         <ul class="content-it align-items-center">
                             <li data-toggle="tooltip" data-placement="top" title="Add To Cart"><span><i
                                         class="fas fa-shopping-bag"></i></span></li>
@@ -171,7 +171,7 @@
                 </div>
                 <div class="thumbnail position-relative">
                     <div class="img-thum position-relative">
-                        <img src="{{asset('public/frontEnd/images/product/demo-pro.jpg')}}" alt="">
+                        <img src="{{asset('public/frontEnd/images/product/demo-pro6.jpg')}}" alt="">
                         <ul class="content-it align-items-center">
                             <li data-toggle="tooltip" data-placement="top" title="Add To Cart"><span><i
                                         class="fas fa-shopping-bag"></i></span></li>
@@ -232,19 +232,19 @@
                     <div class="row">
                         <div class="col-md-3"><img src="{{asset('public/frontEnd/images/product/demo-pro.jpg')}}" alt=""
                                 class="fixImg"></div>
-                        <div class="col-md-3"><img src="{{asset('public/frontEnd/images/product/demo-pro.jpg')}}" alt=""
+                        <div class="col-md-3"><img src="{{asset('public/frontEnd/images/product/demo-pro2.jpg')}}" alt=""
                                 class="fixImg"></div>
-                        <div class="col-md-3"><img src="{{asset('public/frontEnd/images/product/demo-pro.jpg')}}" alt=""
+                        <div class="col-md-3"><img src="{{asset('public/frontEnd/images/product/demo-pro3.jpg')}}" alt=""
                                 class="fixImg"></div>
-                        <div class="col-md-3"><img src="{{asset('public/frontEnd/images/product/demo-pro.jpg')}}" alt=""
+                        <div class="col-md-3"><img src="{{asset('public/frontEnd/images/product/demo-pro4.jpg')}}" alt=""
                                 class="fixImg"></div>
                     </div>
                     <div class="row mt-3">
-                        <div class="col-md-3"><img src="{{asset('public/frontEnd/images/product/demo-pro.jpg')}}" alt=""
+                        <div class="col-md-3"><img src="{{asset('public/frontEnd/images/product/demo-pro5.jpg')}}" alt=""
                             class="fixImg"></div>
-                    <div class="col-md-3"><img src="{{asset('public/frontEnd/images/product/demo-pro.jpg')}}" alt=""
+                    <div class="col-md-3"><img src="{{asset('public/frontEnd/images/product/demo-pro6.jpg')}}" alt=""
                             class="fixImg"></div>
-                    <div class="col-md-3"><img src="{{asset('public/frontEnd/images/product/demo-pro.jpg')}}" alt=""
+                    <div class="col-md-3"><img src="{{asset('public/frontEnd/images/product/demo-pro3.jpg')}}" alt=""
                             class="fixImg"></div>
                     <div class="col-md-3"><img src="{{asset('public/frontEnd/images/product/demo-pro.jpg')}}" alt=""
                             class="fixImg"></div>
@@ -358,7 +358,7 @@
             <div class="col-lg-4 col-12 mb-2 col-md-6">
                 <div class="thumbnail box-shadow box-team-pfnal">
                     <div class="img-thum">
-                        <img src="{{asset('public/frontEnd/images/home/team.jpg')}}" alt="">
+                        <img src="{{asset('public/frontEnd/images/product/demo-pro2.jpg')}}" alt="">
                     </div>
                     <div class="content-thum text-center team-pfnal">
                         <h4>Danielle Welling</h4>
@@ -377,7 +377,7 @@
             <div class="col-lg-4 col-12 mb-2 col-md-6">
                 <div class="thumbnail box-shadow box-team-pfnal">
                     <div class="img-thum">
-                        <img src="{{asset('public/frontEnd/images/home/team.jpg')}}" alt="">
+                        <img src="{{asset('public/frontEnd/images/product/demo-pro3.jpg')}}" alt="">
                     </div>
                     <div class="content-thum text-center team-pfnal">
                         <h4>Danielle Welling</h4>

@@ -1,6 +1,10 @@
 @extends('layouts/frontEnd/layoutFrontEnd2')
 @section('titleWeb',"About")
 @section('content')
+<section class="banner-page2 text-center" style="background-image: url('{{asset('public/frontEnd/images/home/banner-footer.jpg')}}')">
+    <h1>Shop</h1>
+    <p><a href="">Home</a>/ <span>Shop</span> </p>
+</section>
 <section class="about-home">
     <div class="container wp-container">
         <div class="row">

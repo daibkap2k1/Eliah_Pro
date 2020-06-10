@@ -108,7 +108,7 @@
                 </li>
             </ul>
             <div class="icon-menu-mobi justify-content-between">
-                <a class="position-relative">
+                <a href="{{route('cart')}} " class="position-relative text-black">
                     <i class="fas fa-shopping-bag"></i>
                     <span>0</span>
                 </a>

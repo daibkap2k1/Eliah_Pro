@@ -282,6 +282,7 @@ ul.menu li:hover a::after {
     padding: 8px 15px;
     cursor: pointer;
     display: block;
+    height: max-content;
 }
 
 .list-icon-nav li:last-child {

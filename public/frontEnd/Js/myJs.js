@@ -193,7 +193,7 @@ $('.qty_inc_dec.dec').click(function() {
 // end quantity
 $(document).ready(function() {
     $(window).bind('scroll', function() {
-        var navHeight = 350;
+        var navHeight = 150;
         if ($(window).scrollTop() > navHeight) {
             $('nav').addClass('nav-active-k');
         } else {

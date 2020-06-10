@@ -12,6 +12,22 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+// Admin 
+Route::group(['prefix'=>'admin'], function () {
+
+    Route::group(['namespace' => 'Admin'], function () {
+        Route::get('/','DashboardController@index');
+    });
+
+});
+
+
+
+
+
+
+
+// User 
 
 Route::get('/', function () {
     return view('frontEnd/index');
@@ -54,3 +70,4 @@ Route::get('/services', function () {
 Route::get('/about', function () {
     return view('frontEnd/about');
 })->name('about');
+
